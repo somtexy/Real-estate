@@ -1,0 +1,3298 @@
+<!DOCTYPE html>
+ <html lang="en">
+     <head> 
+        <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Takki Homes</title> <script src="https://cdn.tailwindcss.com"></script> <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"> <style> body{ font-family:Inter,sans-serif; background:#f8f6f1; } .font-display{ font-family:"Playfair Display",serif; } .nav-link{ position:relative; } .nav-link::after{ content:""; position:absolute; left:0; bottom:-5px; width:0; height:1.5px; background:#154734; transition:.3s; } .nav-link:hover::after{ width:100%; } </style> </head> <body> <!-- =========================================== NAVIGATION =========================================== --> <header class="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-100"> <div class="max-w-[1180px] mx-auto h-[72px] flex items-center justify-between px-6 lg:px-8"> <!-- Logo --> <a href="index.html" class="flex items-center gap-3"> <div class="w-9 h-9 rounded-full bg-[#174c35] flex items-center justify-center text-white"> <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 3L4 9v11h16V9z"/> </svg> </div> <span class="font-display text-[20px] font-semibold text-[#18291d] tracking-tight"> Takki Homes </span> </a> <!-- Desktop Navigation --> <nav class="hidden lg:flex items-center gap-10 text-[14px] text-[#33463d] font-medium">
+
+<a href="properties.html" class="nav-link">Properties
+     
+</a>
+
+<a href="#" class="nav-link">Why Us</a>
+
+<a href="#" class="nav-link">Agent</a>
+
+<a href="#" class="nav-link">Services</a>
+
+<a href="#" class="nav-link">Contact</a>
+
+</nav> <!-- WhatsApp Button --> <div class="hidden lg:flex">
+
+<button class="h-11 px-6 rounded-full bg-[#22C55E] hover:bg-[#1fb555] transition text-white font-semibold text-[14px] flex items-center gap-2 shadow-sm">
+
+<svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+
+<path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.198.297-.767.966-.94 1.164-.173.198-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.496.099-.198.05-.372-.025-.521-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.075-.792.372-.272.297-1.04 1.016-1.04 2.479s1.065 2.875 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.262.489 1.693.626.711.226 1.358.194 1.87.118.571-.085 1.758-.719 2.006-1.414.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/> </svg>
+
+WhatsApp
+
+</button> </div> <!-- Mobile Toggle -->
+
+<button id="menuBtn" class="lg:hidden w-10 h-10 rounded-lg border border-gray-200 flex items-center justify-center">
+
+<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2">
+
+<path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+
+</svg> </button> </div> <!-- Mobile Menu --> <div id="mobileMenu" class="hidden lg:hidden border-t bg-white"> <nav class="flex flex-col py-3"> <a href="#" class="px-7 py-4 hover:bg-gray-50"> Properties </a> <a href="#" class="px-7 py-4 hover:bg-gray-50"> Why Us </a> <a href="#" class="px-7 py-4 hover:bg-gray-50"> Agent </a> <a href="#" class="px-7 py-4 hover:bg-gray-50"> Services </a> <a href="#" class="px-7 py-4 hover:bg-gray-50"> Contact </a> <div class="px-7 pt-4 pb-6">
+
+<button class="w-full h-11 rounded-full bg-[#22C55E] text-white font-semibold">
+
+WhatsApp
+
+</button> 
+</div> 
+</nav> 
+</div> 
+</header> 
+<script> const btn=document.getElementById('menuBtn'); const menu=document.getElementById('mobileMenu'); btn.addEventListener('click',()=>{ menu.classList.toggle('hidden'); }); </script> 
+
+
+<!-- =========================
+HERO SECTION
+========================= -->
+
+<section class="relative pt-[72px]">
+
+    <!-- Background Image -->
+
+    <div class="relative h-[700px] overflow-hidden">
+
+        <img
+            src="images/image 1.png"
+            alt="Luxury Apartment"
+            class="absolute inset-0 w-full h-full object-cover">
+
+        <!-- Dark Green Overlay -->
+
+        <div class="absolute inset-0 bg-[#0f3d2e]/75"></div>
+
+        <!-- Gradient Overlay -->
+
+        <div class="absolute inset-0 bg-gradient-to-r from-[#0d3528]/90 via-[#0d3528]/55 to-transparent"></div>
+
+        <!-- Hero Content -->
+
+        <div class="relative z-10 max-w-7xl mx-auto h-full px-6 lg:px-8 flex items-center">
+
+            <div class="max-w-2xl">
+
+                <!-- Badge -->
+
+                <div
+                    class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur border border-white/20 text-white text-sm">
+
+                    <span class="w-2 h-2 rounded-full bg-green-400"></span>
+
+                    WhatsApp Listing
+
+                </div>
+
+                <!-- Heading -->
+
+                <h1 class="mt-8 font-display text-white leading-tight text-5xl lg:text-7xl font-bold">
+
+                    Find Your Next Property
+
+                    <br>
+
+                    <span class="text-[#F4C04E] italic">
+
+                        Faster
+
+                    </span>
+
+                    in Abuja
+
+                </h1>
+
+                <!-- Description -->
+
+                <p class="mt-8 text-lg leading-8 text-gray-200 max-w-xl">
+
+                    Browse verified listings or contact an agent instantly on
+                    WhatsApp.
+
+                    No middlemen, no delays — just real homes from a real
+                    agent.
+
+                </p>
+
+                <!-- Buttons -->
+
+                <div class="mt-10 flex flex-wrap gap-4">
+
+                    <a
+                        href="#properties"
+                        class="inline-flex items-center rounded-full bg-[#F4B942] px-8 py-4 font-semibold text-[#173B2C] hover:bg-[#ffc64f] transition">
+
+                        View Properties
+
+                    </a>
+
+                    <a
+                        href="#"
+                        class="inline-flex items-center rounded-full border border-white/30 bg-white/10 backdrop-blur px-8 py-4 text-white hover:bg-white/20 transition">
+
+                        Contact Agent on WhatsApp
+
+                    </a>
+
+                </div>
+
+                <!-- Stats -->
+
+                <div class="mt-12 flex flex-wrap gap-8 text-sm">
+
+                    <div class="flex items-center gap-2 text-white">
+
+                        <span class="w-2 h-2 rounded-full bg-green-400"></span>
+
+                        Fast responses
+
+                    </div>
+
+                    <div class="flex items-center gap-2 text-white">
+
+                        <span class="w-2 h-2 rounded-full bg-green-400"></span>
+
+                        Verified listings
+
+                    </div>
+
+                    <div class="flex items-center gap-2 text-white">
+
+                        <span class="w-2 h-2 rounded-full bg-red-400"></span>
+
+                        Direct agent contact
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+FLOATING SEARCH BAR
+Place this immediately BELOW the Hero Section
+========================= -->
+
+<section class="relative z-30">
+    <div class="max-w-6xl mx-auto px-6 lg:px-8">
+
+        <div
+            class="bg-white rounded-2xl shadow-[0_18px_45px_rgba(0,0,0,0.12)] border border-gray-100 -mt-14 relative">
+
+            <form
+                class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 p-5">
+
+                <!-- Location -->
+
+                <div>
+
+                    <label
+                        class="block text-[11px] font-semibold uppercase tracking-[0.18em] text-gray-500 mb-2">
+
+                        Location
+
+                    </label>
+
+                    <div
+                        class="h-12 border border-gray-200 rounded-xl flex items-center px-4 bg-white">
+
+                        <!-- Location Icon -->
+
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="w-5 h-5 text-gray-400 mr-3"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2">
+
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M17.657 16.657L13.414 20.9a2 2 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M15 11a3 3 0 11-6 0 3 3 0 016 0"/>
+
+                        </svg>
+
+                        <input
+                            type="text"
+                            placeholder="e.g Wuse 2, Abuja"
+                            class="w-full outline-none text-sm text-gray-700 placeholder:text-gray-400 bg-transparent">
+
+                    </div>
+
+                </div>
+
+                <!-- Property Type -->
+
+                <div>
+
+                    <label
+                        class="block text-[11px] font-semibold uppercase tracking-[0.18em] text-gray-500 mb-2">
+
+                        Property Type
+
+                    </label>
+
+                    <select
+                        class="w-full h-12 rounded-xl border border-gray-200 text-sm px-4 outline-none focus:ring-2 focus:ring-green-700">
+
+                        <option>For Rent</option>
+
+                        <option>For Sale</option>
+
+                        <option>Shortlet</option>
+
+                        <option>Commercial</option>
+
+                    </select>
+
+                </div>
+
+                <!-- Price -->
+
+                <div>
+
+                    <label
+                        class="block text-[11px] font-semibold uppercase tracking-[0.18em] text-gray-500 mb-2">
+
+                        Price Range
+
+                    </label>
+
+                    <select
+                        class="w-full h-12 rounded-xl border border-gray-200 text-sm px-4 outline-none focus:ring-2 focus:ring-green-700">
+
+                        <option>Any Price</option>
+
+                        <option>₦10M - ₦30M</option>
+
+                        <option>₦30M - ₦70M</option>
+
+                        <option>₦70M+</option>
+
+                    </select>
+
+                </div>
+
+                <!-- Search Button -->
+
+                <div class="flex items-end">
+
+                    <button
+                        type="submit"
+                        class="w-full h-12 rounded-xl bg-[#114B37] hover:bg-[#0d3d2d] transition-all duration-300 text-white font-semibold flex items-center justify-center gap-2">
+
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="w-5 h-5"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2">
+
+                            <circle cx="11" cy="11" r="7"></circle>
+
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M20 20l-3.5-3.5"></path>
+
+                        </svg>
+
+                        Search
+
+                    </button>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- Spacer after floating card -->
+<div class="h-28"></div>
+
+<!-- ==========================================
+FEATURED LISTINGS
+========================================== -->
+
+<section id="properties" class="py-24 bg-[#f8f6f1]">
+
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+
+        <!-- Section Header -->
+
+        <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-14">
+
+            <div>
+
+                <span class="text-[#b78b39] uppercase tracking-[0.25em] text-sm font-semibold">
+                    Featured Listings
+                </span>
+
+                <h2 class="mt-3 text-4xl lg:text-5xl font-display font-bold text-[#173726]">
+                    Handpicked Properties
+                </h2>
+
+                <p class="mt-5 max-w-2xl text-gray-600 leading-8">
+                    Explore verified apartments, duplexes and luxury homes
+                    carefully selected by our trusted Abuja agents.
+                </p>
+
+            </div>
+
+            <a href="#"
+                class="text-[#174c35] font-semibold hover:underline">
+                Browse All →
+            </a>
+
+        </div>
+
+        <!-- Cards -->
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <!-- CARD 1 -->
+
+            <article
+                class="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition duration-300">
+
+                <div class="relative">
+
+                    <img
+                        src="images/image 2.jpg"
+                        class="h-72 w-full object-cover"
+                        alt="Luxury Apartment">
+
+                    <span
+                        class="absolute left-5 top-5 bg-[#174c35] text-white text-xs font-semibold px-4 py-2 rounded-full">
+                        FOR SALE
+                    </span>
+
+                    <button
+                        class="absolute right-5 top-5 w-11 h-11 rounded-full bg-white/90 flex items-center justify-center">
+
+                        ❤
+
+                    </button>
+
+                </div>
+
+                <div class="p-7">
+
+                    <h3 class="text-2xl font-semibold text-[#1f3428]">
+                        Modern Duplex
+                    </h3>
+
+                    <p class="mt-2 text-gray-500">
+                        Wuse 2, Abuja
+                    </p>
+
+                    <div
+                        class="mt-6 flex justify-between text-sm text-gray-500">
+
+                        <span>🛏 5 Beds</span>
+
+                        <span>🛁 4 Baths</span>
+
+                        <span>📐 650 sqm</span>
+
+                    </div>
+
+                    <div
+                        class="mt-7 flex items-center justify-between">
+
+                        <h4
+                            class="text-2xl font-bold text-[#174c35]">
+                            ₦320M
+                        </h4>
+
+                        <button
+                            class="bg-[#174c35] text-white px-5 py-3 rounded-full hover:bg-[#123a2a] transition">
+
+                            Details
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+            <!-- CARD 2 -->
+
+            <article
+                class="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition">
+
+                <div class="relative">
+
+                    <img
+                        src="images/image 3.jpg"
+                        class="h-72 w-full object-cover"
+                        alt="Apartment">
+
+                    <span
+                        class="absolute left-5 top-5 bg-[#c89b46] text-white text-xs font-semibold px-4 py-2 rounded-full">
+                        FOR RENT
+                    </span>
+
+                </div>
+
+                <div class="p-7">
+
+                    <h3 class="text-2xl font-semibold text-[#1f3428]">
+                        Luxury Apartment
+                    </h3>
+
+                    <p class="mt-2 text-gray-500">
+                        Maitama, Abuja
+                    </p>
+
+                    <div
+                        class="mt-6 flex justify-between text-sm text-gray-500">
+
+                        <span>🛏 3 Beds</span>
+
+                        <span>🛁 3 Baths</span>
+
+                        <span>📐 350 sqm</span>
+
+                    </div>
+
+                    <div
+                        class="mt-7 flex justify-between items-center">
+
+                        <h4
+                            class="text-2xl font-bold text-[#174c35]">
+
+                            ₦15M/yr
+
+                        </h4>
+
+                        <button
+                            class="bg-[#174c35] text-white px-5 py-3 rounded-full">
+
+                            Details
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+            <!-- CARD 3 -->
+
+            <article
+                class="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition">
+
+                <div class="relative">
+
+                    <video
+    class="w-full h-72 object-cover"
+    autoplay
+    muted
+    loop
+    playsinline>
+
+    <source src="images/video1.mp4" type="video/mp4">
+</video>
+
+                    <span
+                        class="absolute left-5 top-5 bg-red-500 text-white text-xs font-semibold px-4 py-2 rounded-full">
+                        NEW
+                    </span>
+
+                </div>
+
+                <div class="p-7">
+
+                    <h3 class="text-2xl font-semibold text-[#1f3428]">
+                        Premium Penthouse
+                    </h3>
+
+                    <p class="mt-2 text-gray-500">
+                        Asokoro, Abuja
+                    </p>
+
+                    <div
+                        class="mt-6 flex justify-between text-sm text-gray-500">
+
+                        <span>🛏 6 Beds</span>
+
+                        <span>🛁 6 Baths</span>
+
+                        <span>📐 920 sqm</span>
+
+                    </div>
+
+                    <div
+                        class="mt-7 flex justify-between items-center">
+
+                        <h4
+                            class="text-2xl font-bold text-[#174c35]">
+
+                            ₦540M
+
+                        </h4>
+
+                        <button
+                            class="bg-[#174c35] text-white px-5 py-3 rounded-full">
+
+                            Details
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        
+
+        <!-- ==========================================
+        SECOND ROW OF PROPERTY CARDS
+        Add this directly BELOW the first grid row inside
+        the existing grid container.
+        =========================================== -->
+
+        <!-- CARD 4 -->
+
+        <article
+            class="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition duration-300">
+
+            <div class="relative">
+
+                <video
+    class="w-full h-72 object-cover"
+    autoplay
+    muted
+    loop
+    playsinline>
+
+    <source src="images/video2.mp4" type="video/mp4">
+</video>
+
+                <span
+                    class="absolute top-5 left-5 bg-[#174c35] text-white text-xs font-semibold px-4 py-2 rounded-full">
+
+                    FOR SALE
+
+                </span>
+
+                <button
+                    class="absolute top-5 right-5 w-11 h-11 rounded-full bg-white/90 backdrop-blur flex items-center justify-center hover:bg-white transition">
+
+                    ❤
+
+                </button>
+
+            </div>
+
+            <div class="p-7">
+
+                <h3 class="text-2xl font-semibold text-[#1f3428]">
+                    Luxury Terrace Duplex
+                </h3>
+
+                <p class="mt-2 text-gray-500">
+                    Gwarinpa, Abuja
+                </p>
+
+                <div class="mt-6 flex justify-between text-sm text-gray-500">
+
+                    <span>🛏 4 Beds</span>
+
+                    <span>🛁 5 Baths</span>
+
+                    <span>📐 520 sqm</span>
+
+                </div>
+
+                <div class="mt-7 flex items-center justify-between">
+
+                    <h4 class="text-2xl font-bold text-[#174c35]">
+                        ₦210M
+                    </h4>
+
+                    <button
+                        class="px-5 py-3 rounded-full bg-[#174c35] text-white hover:bg-[#123a2a] transition">
+
+                        Details
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+        <!-- CARD 5 -->
+
+        <article
+            class="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition duration-300">
+
+            <div class="relative">
+
+                <img
+                    src="images/image4.jpg"
+                    alt="Luxury Bungalow"
+                    class="w-full h-72 object-cover">
+
+                <span
+                    class="absolute top-5 left-5 bg-[#C89B46] text-white text-xs font-semibold px-4 py-2 rounded-full">
+
+                    FOR RENT
+
+                </span>
+
+                <button
+                    class="absolute top-5 right-5 w-11 h-11 rounded-full bg-white/90 backdrop-blur flex items-center justify-center hover:bg-white transition">
+
+                    ❤
+
+                </button>
+
+            </div>
+
+            <div class="p-7">
+
+                <h3 class="text-2xl font-semibold text-[#1f3428]">
+                    Executive Bungalow
+                </h3>
+
+                <p class="mt-2 text-gray-500">
+                    Lokogoma, Abuja
+                </p>
+
+                <div class="mt-6 flex justify-between text-sm text-gray-500">
+
+                    <span>🛏 4 Beds</span>
+
+                    <span>🛁 4 Baths</span>
+
+                    <span>📐 430 sqm</span>
+
+                </div>
+
+                <div class="mt-7 flex items-center justify-between">
+
+                    <h4 class="text-2xl font-bold text-[#174c35]">
+                        ₦8M / Year
+                    </h4>
+
+                    <button
+                        class="px-5 py-3 rounded-full bg-[#174c35] text-white hover:bg-[#123a2a] transition">
+
+                        Details
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+        <!-- CARD 6 -->
+
+        <article
+            class="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition duration-300">
+
+            <div class="relative">
+
+                 <video
+    class="w-full h-72 object-cover"
+    autoplay
+    muted
+    loop
+    playsinline>
+
+    <source src="images/video3.mp4" type="video/mp4">
+</video>
+
+                <span
+                    class="absolute top-5 left-5 bg-red-500 text-white text-xs font-semibold px-4 py-2 rounded-full">
+
+                    FEATURED
+
+                </span>
+
+                <button
+                    class="absolute top-5 right-5 w-11 h-11 rounded-full bg-white/90 backdrop-blur flex items-center justify-center hover:bg-white transition">
+
+                    ❤
+
+                </button>
+
+            </div>
+
+            <div class="p-7">
+
+                <h3 class="text-2xl font-semibold text-[#1f3428]">
+                    Luxury Smart Villa
+                </h3>
+
+                <p class="mt-2 text-gray-500">
+                    Katampe Extension, Abuja
+                </p>
+
+                <div class="mt-6 flex justify-between text-sm text-gray-500">
+
+                    <span>🛏 7 Beds</span>
+
+                    <span>🛁 7 Baths</span>
+
+                    <span>📐 1,150 sqm</span>
+
+                </div>
+
+                <div class="mt-7 flex items-center justify-between">
+
+                    <h4 class="text-2xl font-bold text-[#174c35]">
+                        ₦650M
+                    </h4>
+
+                    <button
+                        class="px-5 py-3 rounded-full bg-[#174c35] text-white hover:bg-[#123a2a] transition">
+
+                        Details
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+        <!-- ==========================================
+SECTION 4C
+VIEW ALL PROPERTIES CTA
+Place this directly BELOW the property grid
+========================================== -->
+
+<div class="mt-16 flex justify-center">
+
+    <a href="#"
+        class="group inline-flex items-center gap-3 rounded-full bg-[#174c35] hover:bg-[#123a2a] text-white px-8 py-4 font-semibold text-[15px] transition-all duration-300 shadow-lg hover:shadow-xl">
+
+        View All Properties
+
+        <svg xmlns="http://www.w3.org/2000/svg"
+            class="w-5 h-5 transition-transform duration-300 group-hover:translate-x-1"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2">
+
+            <path stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M9 5l7 7-7 7" />
+
+        </svg>
+
+    </a>
+
+</div>
+
+<!-- Bottom Spacing -->
+
+<div class="mt-24"></div>
+
+</section>
+
+<!-- =====================================================
+SECTION 5A — WHY CHOOSE US
+(Image + Heading)
+===================================================== -->
+
+<section id="why-us" class="bg-white py-24">
+
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+
+        <div class="grid lg:grid-cols-2 gap-20 items-center">
+
+            <!-- =====================
+            LEFT IMAGE COLLAGE
+            ====================== -->
+
+            <div class="relative">
+
+                <!-- Main Image -->
+
+                <div
+                    class="overflow-hidden rounded-[32px] shadow-2xl">
+
+                    <video
+    class="w-full h-72 object-cover"
+    autoplay
+    muted
+    loop
+    playsinline>
+
+    <source src="images/video4.mp4" type="video/mp4">
+</video>
+
+                </div>
+
+                <!-- Floating Card -->
+
+                <div
+                    class="absolute -bottom-10 -right-8 bg-white rounded-3xl shadow-2xl p-7 w-[260px]">
+
+                    <div
+                        class="w-14 h-14 rounded-2xl bg-[#174c35] flex items-center justify-center text-white mb-5">
+
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            class="w-7 h-7"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2">
+
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M9 12l2 2 4-4M21 12c0 4.418-4.03 8-9 8s-9-3.582-9-8 4.03-8 9-8 9 3.582 9 8z"/>
+
+                        </svg>
+
+                    </div>
+
+                    <h3
+                        class="text-xl font-semibold text-[#173726]">
+
+                        Verified Listings
+
+                    </h3>
+
+                    <p
+                        class="mt-3 text-gray-600 leading-7">
+
+                        Every property is carefully verified before being listed.
+
+                    </p>
+
+                </div>
+
+                <!-- Experience Badge -->
+
+                <div
+                    class="absolute top-8 -left-8 bg-[#174c35] text-white rounded-full h-36 w-36 flex flex-col items-center justify-center shadow-xl">
+
+                    <span
+                        class="text-4xl font-bold">
+
+                        10+
+
+                    </span>
+
+                    <span
+                        class="text-sm uppercase tracking-widest mt-2">
+
+                        Years
+
+                    </span>
+
+                </div>
+
+            </div>
+
+            <!-- =====================
+            RIGHT CONTENT
+            ====================== -->
+
+            <div>
+
+                <span
+                    class="uppercase tracking-[0.25em] text-[#b98d3d] text-sm font-semibold">
+
+                    Why Choose Us
+
+                </span>
+
+                <h2
+                    class="mt-5 font-display text-5xl leading-tight text-[#173726]">
+
+                    We Make Finding Your Next Home Easy.
+
+                </h2>
+
+                <p
+                    class="mt-8 text-lg leading-9 text-gray-600">
+
+                    Whether you're buying, renting or investing, our
+                    experienced team helps you discover verified
+                    properties across Abuja with transparency,
+                    professionalism and speed.
+
+                </p>
+
+                <!-- Decorative Divider -->
+
+                <div
+                    class="mt-10 h-1 w-24 rounded-full bg-[#174c35]">
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ==========================================
+FEATURE GRID
+Place this directly BELOW the divider inside the
+right content column from Section 5A
+========================================== -->
+
+<div class="mt-14 grid sm:grid-cols-2 gap-6">
+
+    <!-- Feature 1 -->
+
+    <div
+        class="group rounded-3xl border border-gray-100 bg-[#faf9f6] p-6 hover:bg-white hover:shadow-xl transition-all duration-300">
+
+        <div
+            class="w-14 h-14 rounded-2xl bg-[#174c35] text-white flex items-center justify-center mb-5 group-hover:scale-110 transition">
+
+            <svg xmlns="http://www.w3.org/2000/svg"
+                class="w-7 h-7"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2">
+
+                <path stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M9 12l2 2 4-4M21 12c0 4.418-4.03 8-9 8s-9-3.582-9-8 4.03-8 9-8 9 3.582 9 8z"/>
+
+            </svg>
+
+        </div>
+
+        <h3 class="text-xl font-semibold text-[#173726]">
+            Verified Properties
+        </h3>
+
+        <p class="mt-3 text-gray-600 leading-7">
+            Every property is inspected and verified before being listed to
+            ensure authenticity and peace of mind.
+        </p>
+
+    </div>
+
+    <!-- Feature 2 -->
+
+    <div
+        class="group rounded-3xl border border-gray-100 bg-[#faf9f6] p-6 hover:bg-white hover:shadow-xl transition-all duration-300">
+
+        <div
+            class="w-14 h-14 rounded-2xl bg-[#174c35] text-white flex items-center justify-center mb-5 group-hover:scale-110 transition">
+
+            <svg xmlns="http://www.w3.org/2000/svg"
+                class="w-7 h-7"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2">
+
+                <path stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M12 14c2.761 0 5-2.239 5-5S14.761 4 12 4 7 6.239 7 9s2.239 5 5 5z"/>
+
+                <path stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4 20c1.8-3.2 5-5 8-5s6.2 1.8 8 5"/>
+
+            </svg>
+
+        </div>
+
+        <h3 class="text-xl font-semibold text-[#173726]">
+            Trusted Agents
+        </h3>
+
+        <p class="mt-3 text-gray-600 leading-7">
+            Work directly with experienced real estate professionals who know
+            Abuja inside out.
+        </p>
+
+    </div>
+
+    <!-- Feature 3 -->
+
+    <div
+        class="group rounded-3xl border border-gray-100 bg-[#faf9f6] p-6 hover:bg-white hover:shadow-xl transition-all duration-300">
+
+        <div
+            class="w-14 h-14 rounded-2xl bg-[#174c35] text-white flex items-center justify-center mb-5 group-hover:scale-110 transition">
+
+            <svg xmlns="http://www.w3.org/2000/svg"
+                class="w-7 h-7"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2">
+
+                <path stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M8 10h8M8 14h5"/>
+
+                <path stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 12c0 4.418-4.03 8-9 8a9.94 9.94 0 01-4.5-1.07L3 20l1.15-4.15A9 9 0 1112 21"/>
+
+            </svg>
+
+        </div>
+
+        <h3 class="text-xl font-semibold text-[#173726]">
+            WhatsApp Support
+        </h3>
+
+        <p class="mt-3 text-gray-600 leading-7">
+            Chat instantly with an agent, ask questions and schedule inspections
+            directly on WhatsApp.
+        </p>
+
+    </div>
+
+    <!-- Feature 4 -->
+
+    <div
+        class="group rounded-3xl border border-gray-100 bg-[#faf9f6] p-6 hover:bg-white hover:shadow-xl transition-all duration-300">
+
+        <div
+            class="w-14 h-14 rounded-2xl bg-[#174c35] text-white flex items-center justify-center mb-5 group-hover:scale-110 transition">
+
+            <svg xmlns="http://www.w3.org/2000/svg"
+                class="w-7 h-7"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2">
+
+                <path stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M17.657 16.657L13.414 20.9a2 2 0 01-2.827 0L6.343 16.657A8 8 0 1117.657 16.657z"/>
+
+                <circle cx="12" cy="11" r="3"/>
+
+            </svg>
+
+        </div>
+
+        <h3 class="text-xl font-semibold text-[#173726]">
+            Prime Locations
+        </h3>
+
+        <p class="mt-3 text-gray-600 leading-7">
+            Discover premium homes in Maitama, Asokoro, Wuse, Guzape,
+            Katampe and other top Abuja neighborhoods.
+        </p>
+
+    </div>
+
+</div>
+
+<!-- ==========================================
+SECTION 5C
+STATISTICS / ACHIEVEMENTS
+Place this directly BELOW the feature grid
+========================================== -->
+
+<div class="mt-20">
+
+    <div
+        class="bg-[#174c35] rounded-[32px] overflow-hidden">
+
+        <div
+            class="grid grid-cols-2 lg:grid-cols-4 divide-y lg:divide-y-0 lg:divide-x divide-white/10">
+
+            <!-- Stat 1 -->
+
+            <div class="text-center px-8 py-12">
+
+                <h3
+                    class="text-5xl font-bold text-white">
+
+                    250+
+
+                </h3>
+
+                <p
+                    class="mt-3 text-[#d7e7df] uppercase tracking-[0.18em] text-sm">
+
+                    Properties Sold
+
+                </p>
+
+            </div>
+
+            <!-- Stat 2 -->
+
+            <div class="text-center px-8 py-12">
+
+                <h3
+                    class="text-5xl font-bold text-white">
+
+                    500+
+
+                </h3>
+
+                <p
+                    class="mt-3 text-[#d7e7df] uppercase tracking-[0.18em] text-sm">
+
+                    Happy Clients
+
+                </p>
+
+            </div>
+
+            <!-- Stat 3 -->
+
+            <div class="text-center px-8 py-12">
+
+                <h3
+                    class="text-5xl font-bold text-white">
+
+                    10+
+
+                </h3>
+
+                <p
+                    class="mt-3 text-[#d7e7df] uppercase tracking-[0.18em] text-sm">
+
+                    Years Experience
+
+                </p>
+
+            </div>
+
+            <!-- Stat 4 -->
+
+            <div class="text-center px-8 py-12">
+
+                <h3
+                    class="text-5xl font-bold text-white">
+
+                    24/7
+
+                </h3>
+
+                <p
+                    class="mt-3 text-[#d7e7df] uppercase tracking-[0.18em] text-sm">
+
+                    WhatsApp Support
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Bottom spacing -->
+
+<div class="mt-24"></div>
+
+</div>
+
+</section>
+
+<!-- ======================================================
+SECTION 6A — AGENT PROFILE
+(Left Column Only)
+====================================================== -->
+
+<section id="agent" class="relative py-24 bg-[#f8f6f1] overflow-hidden">
+
+    <!-- Decorative Background -->
+
+    <div class="absolute inset-0 pointer-events-none">
+
+        <div
+            class="absolute -top-32 -left-32 w-80 h-80 rounded-full bg-[#174c35]/5">
+        </div>
+
+        <div
+            class="absolute bottom-0 right-0 w-96 h-96 rounded-full bg-[#c89b46]/10">
+        </div>
+
+    </div>
+
+    <div class="relative max-w-7xl mx-auto px-6 lg:px-8">
+
+        <div class="grid lg:grid-cols-2 gap-20 items-center">
+
+            <!-- ==================================
+            LEFT SIDE
+            =================================== -->
+
+            <div class="relative">
+
+                <!-- Gold Accent Shape -->
+
+                <div
+                    class="absolute -top-8 -left-8 w-48 h-48 rounded-full bg-[#d8b16a]/20 blur-3xl">
+                </div>
+
+                <!-- Green Accent Shape -->
+
+                <div
+                    class="absolute -bottom-12 -right-10 w-52 h-52 rounded-full bg-[#174c35]/10 blur-3xl">
+                </div>
+
+                <!-- Main Image -->
+
+                <div
+                    class="relative rounded-[36px] overflow-hidden shadow-[0_30px_60px_rgba(0,0,0,0.18)]">
+
+                    <img
+                        src="images/image6.jpg"
+                        alt="Professional Real Estate Agent"
+                        class="w-full h-[720px] object-cover">
+
+                </div>
+
+                <!-- Floating Experience Card -->
+
+                <div
+                    class="absolute left-6 bottom-6 bg-white rounded-3xl shadow-xl px-6 py-5 flex items-center gap-5">
+
+                    <div
+                        class="w-16 h-16 rounded-2xl bg-[#174c35] flex items-center justify-center text-white">
+
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            class="w-8 h-8"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2">
+
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M9 12l2 2 4-4"/>
+
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M21 12c0 4.418-4.03 8-9 8s-9-3.582-9-8 4.03-8 9-8 9 3.582 9 8z"/>
+
+                        </svg>
+
+                    </div>
+
+                    <div>
+
+                        <h4
+                            class="text-3xl font-bold text-[#173726]">
+
+                            250+
+
+                        </h4>
+
+                        <p
+                            class="text-gray-500">
+
+                            Successful Deals
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- Floating Years Badge -->
+
+                <div
+                    class="absolute -top-8 right-6 w-36 h-36 rounded-full bg-[#174c35] text-white flex flex-col items-center justify-center shadow-2xl">
+
+                    <span class="text-4xl font-bold">
+
+                        10+
+
+                    </span>
+
+                    <span
+                        class="uppercase tracking-[0.2em] text-xs mt-2">
+
+                        Years
+
+                    </span>
+
+                </div>
+
+            </div>
+
+            <!-- RIGHT COLUMN STARTS IN SECTION 6B -->
+
+                <!-- ==========================================
+            RIGHT COLUMN
+            SECTION 6B
+            =========================================== -->
+
+            <div>
+
+                <!-- Small Label -->
+
+                <span
+                    class="inline-block uppercase tracking-[0.25em] text-[#b78b39] text-sm font-semibold">
+
+                    Meet Your Agent
+
+                </span>
+
+                <!-- Heading -->
+
+                <h2
+                    class="mt-5 font-display text-5xl lg:text-6xl leading-tight text-[#173726]">
+
+                    Helping You Find
+                    <br>
+                    The Perfect Home.
+
+                </h2>
+
+                <!-- Intro -->
+
+                <p
+                    class="mt-8 text-lg leading-9 text-gray-600">
+
+                    With over a decade of experience in Abuja's real estate
+                    market, I help clients buy, rent and invest in premium
+                    properties with confidence. Every listing is carefully
+                    verified, and every client receives honest advice,
+                    transparent pricing and professional support from the
+                    first conversation to handing over the keys.
+
+                </p>
+
+                <!-- Divider -->
+
+                <div
+                    class="mt-10 w-24 h-1 rounded-full bg-[#174c35]">
+                </div>
+
+                <!-- Achievements -->
+
+                <div
+                    class="mt-12 grid sm:grid-cols-2 gap-6">
+
+                    <div
+                        class="flex items-start gap-4">
+
+                        <div
+                            class="w-12 h-12 rounded-xl bg-[#174c35] text-white flex items-center justify-center">
+
+                            ✓
+
+                        </div>
+
+                        <div>
+
+                            <h4
+                                class="font-semibold text-[#173726] text-lg">
+
+                                Verified Listings
+
+                            </h4>
+
+                            <p
+                                class="mt-2 text-gray-600 leading-7">
+
+                                Every property is personally inspected before
+                                being listed.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div
+                        class="flex items-start gap-4">
+
+                        <div
+                            class="w-12 h-12 rounded-xl bg-[#174c35] text-white flex items-center justify-center">
+
+                            🏠
+
+                        </div>
+
+                        <div>
+
+                            <h4
+                                class="font-semibold text-[#173726] text-lg">
+
+                                Premium Homes
+
+                            </h4>
+
+                            <p
+                                class="mt-2 text-gray-600 leading-7">
+
+                                Luxury apartments, duplexes, villas and
+                                investment properties.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div
+                        class="flex items-start gap-4">
+
+                        <div
+                            class="w-12 h-12 rounded-xl bg-[#174c35] text-white flex items-center justify-center">
+
+                            💬
+
+                        </div>
+
+                        <div>
+
+                            <h4
+                                class="font-semibold text-[#173726] text-lg">
+
+                                Instant WhatsApp
+
+                            </h4>
+
+                            <p
+                                class="mt-2 text-gray-600 leading-7">
+
+                                Schedule inspections and receive responses
+                                quickly.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div
+                        class="flex items-start gap-4">
+
+                        <div
+                            class="w-12 h-12 rounded-xl bg-[#174c35] text-white flex items-center justify-center">
+
+                            📍
+
+                        </div>
+
+                        <div>
+
+                            <h4
+                                class="font-semibold text-[#173726] text-lg">
+
+                                Local Expertise
+
+                            </h4>
+
+                            <p
+                                class="mt-2 text-gray-600 leading-7">
+
+                                Deep knowledge of Abuja's most desirable
+                                neighborhoods.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- CTA Buttons -->
+
+                <div
+                    class="mt-14 flex flex-wrap gap-5">
+
+                    <a
+                        href="#"
+                        class="inline-flex items-center gap-3 rounded-full bg-[#174c35] hover:bg-[#123a2a] transition text-white font-semibold px-8 py-4 shadow-lg">
+
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="w-5 h-5"
+                            fill="currentColor"
+                            viewBox="0 0 24 24">
+
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.198.297-.767.966-.94 1.164-.173.198-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.496.099-.198.05-.372-.025-.521-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.075-.792.372-.272.297-1.04 1.016-1.04 2.479s1.065 2.875 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.262.489 1.693.626.711.226 1.358.194 1.87.118.571-.085 1.758-.719 2.006-1.414.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+
+                        </svg>
+
+                        Chat on WhatsApp
+
+                    </a>
+
+                    <a
+                        href="#properties"
+                        class="inline-flex items-center rounded-full border-2 border-[#174c35] text-[#174c35] hover:bg-[#174c35] hover:text-white transition font-semibold px-8 py-4">
+
+                        Browse Properties
+
+                    </a>
+
+                </div>
+
+            </div>
+            
+            <!-- ==========================================
+SECTION 6C
+FLOATING REVIEW CARD + CONTACT CARD
+Place these inside the LEFT IMAGE COLUMN (below the existing floating cards)
+Then close the remaining wrappers.
+========================================== -->
+
+<!-- Floating Review Card -->
+
+<div
+    class="absolute top-16 -right-10 hidden lg:flex items-center gap-4 bg-white rounded-2xl shadow-xl px-5 py-4 border border-gray-100">
+
+    <div class="flex -space-x-2">
+
+        <img src="images/client1.jpg"
+            class="w-10 h-10 rounded-full border-2 border-white object-cover"
+            alt="Client">
+
+        <img src="images/client2.jpg"
+            class="w-10 h-10 rounded-full border-2 border-white object-cover"
+            alt="Client">
+
+        <img src="images/client3.jpg"
+            class="w-10 h-10 rounded-full border-2 border-white object-cover"
+            alt="Client">
+
+    </div>
+
+    <div>
+
+        <div class="flex text-[#D4A017] text-sm">
+
+            ★★★★★
+
+        </div>
+
+        <p class="text-sm text-gray-600 mt-1">
+
+            Trusted by 500+ happy clients
+
+        </p>
+
+    </div>
+
+</div>
+
+<!-- Floating Contact Card -->
+
+<div
+    class="absolute -bottom-10 right-0 bg-white rounded-3xl shadow-2xl border border-gray-100 p-6 w-[290px]">
+
+    <span
+        class="text-xs uppercase tracking-[0.2em] text-[#b98d3d] font-semibold">
+
+        Need Assistance?
+
+    </span>
+
+    <h4
+        class="mt-3 text-2xl font-semibold text-[#173726]">
+
+        Let's Find Your Dream Home
+
+    </h4>
+
+    <p
+        class="mt-3 text-gray-600 leading-7">
+
+        Contact me directly for verified listings,
+        property inspections and investment advice.
+
+    </p>
+
+    <a href="#"
+        class="mt-6 inline-flex w-full justify-center items-center gap-3 rounded-full bg-[#174c35] hover:bg-[#123a2a] transition text-white font-semibold py-4">
+
+        <svg xmlns="http://www.w3.org/2000/svg"
+            class="w-5 h-5"
+            fill="currentColor"
+            viewBox="0 0 24 24">
+
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.198.297-.767.966-.94 1.164-.173.198-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.496.099-.198.05-.372-.025-.521-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.075-.792.372-.272.297-1.04 1.016-1.04 2.479s1.065 2.875 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.262.489 1.693.626.711.226 1.358.194 1.87.118.571-.085 1.758-.719 2.006-1.414.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+
+        </svg>
+
+        Chat on WhatsApp
+
+    </a>
+
+</div>
+
+<!-- ==========================================
+END OF GRID / CONTAINER / SECTION
+========================================== -->
+
+        </div> <!-- End Grid -->
+
+    </div> <!-- End Container -->
+
+</section>
+
+<!-- ==========================================
+SECTION 7A
+SERVICES HEADER
+========================================== -->
+
+<section id="services" class="relative py-24 bg-[#fcfaf6] overflow-hidden">
+
+    <!-- Decorative Background -->
+
+    <div class="absolute inset-0 pointer-events-none">
+
+        <div
+            class="absolute -top-32 right-0 w-96 h-96 rounded-full bg-[#174c35]/5 blur-3xl">
+        </div>
+
+        <div
+            class="absolute -bottom-32 left-0 w-80 h-80 rounded-full bg-[#d8b16a]/10 blur-3xl">
+        </div>
+
+    </div>
+
+    <div class="relative max-w-7xl mx-auto px-6 lg:px-8">
+
+        <!-- Small Label -->
+
+        <div class="text-center">
+
+            <span
+                class="inline-block uppercase tracking-[0.25em] text-[#b98d3d] text-sm font-semibold">
+
+                Our Services
+
+            </span>
+
+            <!-- Heading -->
+
+            <h2
+                class="mt-5 font-display text-4xl md:text-5xl lg:text-6xl text-[#173726] leading-tight">
+
+                Everything You Need
+                <br>
+                In One Place
+
+            </h2>
+
+            <!-- Description -->
+
+            <p
+                class="mt-8 max-w-3xl mx-auto text-lg leading-9 text-gray-600">
+
+                From finding your dream home to property investment,
+                inspections and documentation, we provide a complete
+                real estate experience designed to make buying,
+                renting and investing simple, secure and stress-free.
+
+            </p>
+
+        </div>
+
+        <!-- Decorative Divider -->
+
+        <div
+            class="mt-12 flex justify-center">
+
+            <div
+                class="w-24 h-1 rounded-full bg-[#174c35]">
+            </div>
+
+        </div>
+
+        <!-- Services Grid Starts Here -->
+
+        <div class="mt-20 grid md:grid-cols-2 xl:grid-cols-3 gap-8">
+
+          <!-- ==========================================
+SECTION 7B
+FIRST THREE SERVICE CARDS
+Place inside the Services Grid from Section 7A
+========================================== -->
+
+<!-- =============================
+CARD 1
+============================= -->
+
+<article
+    class="group bg-white rounded-[30px] p-8 border border-gray-100 hover:border-[#174c35]/20 hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
+
+    <!-- Icon -->
+
+    <div
+        class="w-16 h-16 rounded-2xl bg-[#174c35] text-white flex items-center justify-center group-hover:rotate-6 transition">
+
+        <svg xmlns="http://www.w3.org/2000/svg"
+            class="w-8 h-8"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2">
+
+            <path stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3 10l9-7 9 7"/>
+
+            <path stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M5 10v10h14V10"/>
+
+        </svg>
+
+    </div>
+
+    <!-- Title -->
+
+    <h3
+        class="mt-8 text-2xl font-semibold text-[#173726]">
+
+        Property Sales
+
+    </h3>
+
+    <!-- Description -->
+
+    <p
+        class="mt-5 text-gray-600 leading-8">
+
+        Discover verified apartments, duplexes, villas and luxury
+        homes across Abuja with transparent pricing and professional
+        guidance from inspection to ownership.
+
+    </p>
+
+    <!-- Features -->
+
+    <ul
+        class="mt-8 space-y-3 text-gray-600">
+
+        <li class="flex gap-3">
+
+            <span class="text-[#174c35]">✓</span>
+
+            Verified Listings
+
+        </li>
+
+        <li class="flex gap-3">
+
+            <span class="text-[#174c35]">✓</span>
+
+            Inspection Assistance
+
+        </li>
+
+        <li class="flex gap-3">
+
+            <span class="text-[#174c35]">✓</span>
+
+            Documentation Support
+
+        </li>
+
+    </ul>
+
+</article>
+
+<!-- =============================
+CARD 2
+============================= -->
+
+<article
+    class="group bg-white rounded-[30px] p-8 border border-gray-100 hover:border-[#174c35]/20 hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
+
+    <div
+        class="w-16 h-16 rounded-2xl bg-[#174c35] text-white flex items-center justify-center group-hover:rotate-6 transition">
+
+        <svg xmlns="http://www.w3.org/2000/svg"
+            class="w-8 h-8"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2">
+
+            <path stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M4 21V9l8-6 8 6v12"/>
+
+            <path stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M9 22V12h6v10"/>
+
+        </svg>
+
+    </div>
+
+    <h3
+        class="mt-8 text-2xl font-semibold text-[#173726]">
+
+        Property Rentals
+
+    </h3>
+
+    <p
+        class="mt-5 text-gray-600 leading-8">
+
+        Looking for your next apartment or family home?
+        We connect tenants with quality rental properties
+        in Abuja's best neighborhoods.
+
+    </p>
+
+    <ul
+        class="mt-8 space-y-3 text-gray-600">
+
+        <li class="flex gap-3">
+
+            <span class="text-[#174c35]">✓</span>
+
+            Apartment Rentals
+
+        </li>
+
+        <li class="flex gap-3">
+
+            <span class="text-[#174c35]">✓</span>
+
+            Duplex Rentals
+
+        </li>
+
+        <li class="flex gap-3">
+
+            <span class="text-[#174c35]">✓</span>
+
+            Commercial Spaces
+
+        </li>
+
+    </ul>
+
+</article>
+
+<!-- =============================
+CARD 3
+============================= -->
+
+<article
+    class="group bg-white rounded-[30px] p-8 border border-gray-100 hover:border-[#174c35]/20 hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
+
+    <div
+        class="w-16 h-16 rounded-2xl bg-[#174c35] text-white flex items-center justify-center group-hover:rotate-6 transition">
+
+        <svg xmlns="http://www.w3.org/2000/svg"
+            class="w-8 h-8"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2">
+
+            <path stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 3v18"/>
+
+            <path stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3 12h18"/>
+
+        </svg>
+
+    </div>
+
+    <h3
+        class="mt-8 text-2xl font-semibold text-[#173726]">
+
+        Property Management
+
+    </h3>
+
+    <p
+        class="mt-5 text-gray-600 leading-8">
+
+        Let us manage your investment property with tenant
+        screening, maintenance coordination, rent collection
+        and regular property inspections.
+
+    </p>
+
+    <ul
+        class="mt-8 space-y-3 text-gray-600">
+
+        <li class="flex gap-3">
+
+            <span class="text-[#174c35]">✓</span>
+
+            Tenant Management
+
+        </li>
+
+        <li class="flex gap-3">
+
+            <span class="text-[#174c35]">✓</span>
+
+            Rent Collection
+
+        </li>
+
+        <li class="flex gap-3">
+
+            <span class="text-[#174c35]">✓</span>
+
+            Maintenance Support
+
+        </li>
+
+    </ul>
+
+</article>
+
+<!-- ==========================================
+SECTION 7C
+LAST THREE SERVICE CARDS + CTA
+Place immediately after Card 3 from Section 7B
+========================================== -->
+
+<!-- =============================
+CARD 4
+============================= -->
+
+<article
+    class="group bg-white rounded-[30px] p-8 border border-gray-100 hover:border-[#174c35]/20 hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
+
+    <div
+        class="w-16 h-16 rounded-2xl bg-[#174c35] text-white flex items-center justify-center group-hover:rotate-6 transition">
+
+        <svg xmlns="http://www.w3.org/2000/svg"
+            class="w-8 h-8"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2">
+
+            <path stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 8c-2.5 0-4.5 2-4.5 4.5S9.5 17 12 17s4.5-2 4.5-4.5S14.5 8 12 8z"/>
+
+            <path stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2"/>
+
+        </svg>
+
+    </div>
+
+    <h3 class="mt-8 text-2xl font-semibold text-[#173726]">
+        Property Investment
+    </h3>
+
+    <p class="mt-5 text-gray-600 leading-8">
+        Identify high-return investment opportunities with expert market
+        insights, ROI analysis and strategic property recommendations.
+    </p>
+
+    <ul class="mt-8 space-y-3 text-gray-600">
+        <li class="flex gap-3"><span class="text-[#174c35]">✓</span>Investment Strategy</li>
+        <li class="flex gap-3"><span class="text-[#174c35]">✓</span>ROI Analysis</li>
+        <li class="flex gap-3"><span class="text-[#174c35]">✓</span>Market Insights</li>
+    </ul>
+
+</article>
+
+<!-- =============================
+CARD 5
+============================= -->
+
+<article
+    class="group bg-white rounded-[30px] p-8 border border-gray-100 hover:border-[#174c35]/20 hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
+
+    <div
+        class="w-16 h-16 rounded-2xl bg-[#174c35] text-white flex items-center justify-center group-hover:rotate-6 transition">
+
+        <svg xmlns="http://www.w3.org/2000/svg"
+            class="w-8 h-8"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2">
+
+            <circle cx="12" cy="12" r="9"/>
+            <path stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 8v5l3 2"/>
+
+        </svg>
+
+    </div>
+
+    <h3 class="mt-8 text-2xl font-semibold text-[#173726]">
+        Property Consultation
+    </h3>
+
+    <p class="mt-5 text-gray-600 leading-8">
+        Get honest, professional advice before buying, renting or investing in
+        any property across Abuja.
+    </p>
+
+    <ul class="mt-8 space-y-3 text-gray-600">
+        <li class="flex gap-3"><span class="text-[#174c35]">✓</span>One-on-One Guidance</li>
+        <li class="flex gap-3"><span class="text-[#174c35]">✓</span>Neighborhood Advice</li>
+        <li class="flex gap-3"><span class="text-[#174c35]">✓</span>Investment Planning</li>
+    </ul>
+
+</article>
+
+<!-- =============================
+CARD 6
+============================= -->
+
+<article
+    class="group bg-white rounded-[30px] p-8 border border-gray-100 hover:border-[#174c35]/20 hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
+
+    <div
+        class="w-16 h-16 rounded-2xl bg-[#174c35] text-white flex items-center justify-center group-hover:rotate-6 transition">
+
+        <svg xmlns="http://www.w3.org/2000/svg"
+            class="w-8 h-8"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2">
+
+            <path stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M8 3h8l5 5v13H3V3h5z"/>
+
+            <path stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M8 13h8M8 17h6M8 9h4"/>
+
+        </svg>
+
+    </div>
+
+    <h3 class="mt-8 text-2xl font-semibold text-[#173726]">
+        Legal Documentation
+    </h3>
+
+    <p class="mt-5 text-gray-600 leading-8">
+        Secure your property transactions with complete legal documentation,
+        verification and title processing assistance.
+    </p>
+
+    <ul class="mt-8 space-y-3 text-gray-600">
+        <li class="flex gap-3"><span class="text-[#174c35]">✓</span>Title Verification</li>
+        <li class="flex gap-3"><span class="text-[#174c35]">✓</span>Agreement Preparation</li>
+        <li class="flex gap-3"><span class="text-[#174c35]">✓</span>Legal Support</li>
+    </ul>
+
+</article>
+
+</div>
+
+<!-- ==========================================
+BOTTOM CTA
+========================================== -->
+
+<div class="mt-20 text-center">
+
+    <h3 class="text-3xl lg:text-4xl font-display text-[#173726]">
+        Ready to Find Your Next Property?
+    </h3>
+
+    <p class="mt-5 max-w-2xl mx-auto text-lg leading-8 text-gray-600">
+        Whether you're buying, renting or investing, we're ready to help you
+        every step of the way.
+    </p>
+
+    <div class="mt-10 flex flex-wrap justify-center gap-5">
+
+        <a href="#properties"
+            class="px-8 py-4 rounded-full bg-[#174c35] text-white font-semibold hover:bg-[#123a2a] transition shadow-lg">
+
+            Browse Properties
+
+        </a>
+
+        <a href="#contact"
+            class="px-8 py-4 rounded-full border-2 border-[#174c35] text-[#174c35] font-semibold hover:bg-[#174c35] hover:text-white transition">
+
+            Contact Agent
+
+        </a>
+
+    </div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ======================================================
+SECTION 8A — TESTIMONIALS
+(Heading + First Testimonial)
+====================================================== -->
+
+<section id="testimonials" class="py-24 bg-white">
+
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+
+        <!-- Section Header -->
+
+        <div class="text-center max-w-3xl mx-auto">
+
+            <span
+                class="inline-block uppercase tracking-[0.25em] text-[#b98d3d] text-sm font-semibold">
+
+                Testimonials
+
+            </span>
+
+            <h2
+                class="mt-5 font-display text-4xl md:text-5xl lg:text-6xl text-[#173726] leading-tight">
+
+                What Our Clients
+                <br>
+                Say About Us
+
+            </h2>
+
+            <p
+                class="mt-8 text-lg leading-9 text-gray-600">
+
+                We believe trust is earned through exceptional service.
+                Here's what some of our happy clients have to say after
+                buying, renting and investing with us.
+
+            </p>
+
+        </div>
+
+        <!-- Divider -->
+
+        <div class="flex justify-center mt-12">
+
+            <div
+                class="w-24 h-1 rounded-full bg-[#174c35]">
+            </div>
+
+        </div>
+
+        <!-- Testimonial Grid -->
+
+        <div class="mt-20 grid lg:grid-cols-3 gap-8">
+
+            <!-- =====================================
+            TESTIMONIAL CARD 1
+            ====================================== -->
+
+            <article
+                class="relative bg-[#fcfaf6] rounded-[32px] p-10 border border-gray-100 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+
+                <!-- Quote Icon -->
+
+                <div
+                    class="absolute top-8 right-8 text-[#174c35]/10">
+
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        class="w-20 h-20"
+                        fill="currentColor"
+                        viewBox="0 0 24 24">
+
+                        <path d="M7.17 6A5.001 5.001 0 002 11v7h8v-7H6a3 3 0 013-3h1V6H7.17zm10 0A5.001 5.001 0 0012 11v7h8v-7h-4a3 3 0 013-3h1V6h-2.83z"/>
+
+                    </svg>
+
+                </div>
+
+                <!-- Stars -->
+
+                <div
+                    class="flex gap-1 text-[#D4A017]">
+
+                    ★★★★★
+
+                </div>
+
+                <!-- Review -->
+
+                <p
+                    class="relative mt-8 text-gray-600 leading-9">
+
+                    Working with Lekki Homes was the best decision we made.
+                    The entire buying process was smooth, transparent and
+                    stress-free. Within two weeks we found exactly the home
+                    we wanted in Maitama.
+
+                </p>
+
+                <!-- Client -->
+
+                <div
+                    class="mt-10 flex items-center gap-4">
+
+                    <img
+                        src="images/image6.jpg"
+                        class="w-16 h-16 rounded-full object-cover ring-4 ring-white shadow-lg"
+                        alt="Client">
+
+                    <div>
+
+                        <h4
+                            class="font-semibold text-xl text-[#173726]">
+
+                            David Johnson
+
+                        </h4>
+
+                        <p
+                            class="text-gray-500">
+
+                            Home Buyer
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+         <!-- =====================================
+TESTIMONIAL CARD 2
+===================================== -->
+
+<article
+    class="relative bg-[#fcfaf6] rounded-[32px] p-10 border border-gray-100 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+
+    <!-- Quote Icon -->
+
+    <div
+        class="absolute top-8 right-8 text-[#174c35]/10">
+
+        <svg xmlns="http://www.w3.org/2000/svg"
+            class="w-20 h-20"
+            fill="currentColor"
+            viewBox="0 0 24 24">
+
+            <path d="M7.17 6A5.001 5.001 0 002 11v7h8v-7H6a3 3 0 013-3h1V6H7.17zm10 0A5.001 5.001 0 0012 11v7h8v-7h-4a3 3 0 013-3h1V6h-2.83z"/>
+
+        </svg>
+
+    </div>
+
+    <!-- Stars -->
+
+    <div class="flex gap-1 text-[#D4A017]">
+
+        ★★★★★
+
+    </div>
+
+    <!-- Review -->
+
+    <p
+        class="relative mt-8 text-gray-600 leading-9">
+
+        I was relocating to Abuja and needed an apartment quickly.
+        Their team understood exactly what I wanted and arranged
+        inspections within days. The entire process was seamless and
+        stress-free.
+
+    </p>
+
+    <!-- Client -->
+
+    <div
+        class="mt-10 flex items-center gap-4">
+
+        <img
+            src="images/client2.jpg"
+            class="w-16 h-16 rounded-full object-cover ring-4 ring-white shadow-lg"
+            alt="Client">
+
+        <div>
+
+            <h4
+                class="font-semibold text-xl text-[#173726]">
+
+                Sarah Williams
+
+            </h4>
+
+            <p
+                class="text-gray-500">
+
+                Property Investor
+
+            </p>
+
+        </div>
+
+    </div>
+
+</article>
+
+<!-- =====================================
+TESTIMONIAL CARD 3
+===================================== -->
+
+<article
+    class="relative bg-[#fcfaf6] rounded-[32px] p-10 border border-gray-100 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+
+    <!-- Quote Icon -->
+
+    <div
+        class="absolute top-8 right-8 text-[#174c35]/10">
+
+        <svg xmlns="http://www.w3.org/2000/svg"
+            class="w-20 h-20"
+            fill="currentColor"
+            viewBox="0 0 24 24">
+
+            <path d="M7.17 6A5.001 5.001 0 002 11v7h8v-7H6a3 3 0 013-3h1V6H7.17zm10 0A5.001 5.001 0 0012 11v7h8v-7h-4a3 3 0 013-3h1V6h-2.83z"/>
+
+        </svg>
+
+    </div>
+
+    <!-- Stars -->
+
+    <div class="flex gap-1 text-[#D4A017]">
+
+        ★★★★★
+
+    </div>
+
+    <!-- Review -->
+
+    <p
+        class="relative mt-8 text-gray-600 leading-9">
+
+        Excellent service from start to finish. Every property shown
+        matched my requirements and there were no hidden surprises.
+        I would gladly recommend them to anyone looking for premium
+        real estate in Abuja.
+
+    </p>
+
+    <!-- Client -->
+
+    <div
+        class="mt-10 flex items-center gap-4">
+
+        <img
+            src="images/client3.jpg"
+            class="w-16 h-16 rounded-full object-cover ring-4 ring-white shadow-lg"
+            alt="Client">
+
+        <div>
+
+            <h4
+                class="font-semibold text-xl text-[#173726]">
+
+                Michael Adams
+
+            </h4>
+
+            <p
+                class="text-gray-500">
+
+                Business Executive
+
+            </p>
+
+        </div>
+
+    </div>
+
+</article>
+
+<!-- ==========================================
+SECTION 8C
+BOTTOM CTA + NAVIGATION
+Place this immediately after the 3 testimonial cards
+========================================== -->
+
+        </div>
+
+        <!-- Bottom CTA -->
+
+        <div class="mt-20">
+
+            <div
+                class="bg-[#174c35] rounded-[36px] px-10 lg:px-16 py-12 flex flex-col lg:flex-row items-center justify-between gap-10">
+
+                <!-- Left -->
+
+                <div>
+
+                    <span
+                        class="uppercase tracking-[0.22em] text-[#d6b36a] text-sm font-semibold">
+
+                        Join Hundreds Of Happy Clients
+
+                    </span>
+
+                    <h3
+                        class="mt-4 text-3xl lg:text-4xl font-display text-white leading-tight">
+
+                        Ready To Find Your
+                        Dream Property?
+
+                    </h3>
+
+                    <p
+                        class="mt-5 text-white/80 max-w-2xl leading-8">
+
+                        Whether you're buying, renting or investing,
+                        we're committed to helping you find the perfect
+                        property with complete confidence.
+
+                    </p>
+
+                </div>
+
+                <!-- CTA -->
+
+                <a href="#contact"
+                    class="inline-flex items-center gap-3 bg-[#d4a017] hover:bg-[#c49312] transition px-8 py-4 rounded-full text-[#173726] font-semibold whitespace-nowrap shadow-lg">
+
+                    Contact An Agent
+
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        class="w-5 h-5"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2">
+
+                        <path stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M5 12h14"/>
+
+                        <path stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M13 5l7 7-7 7"/>
+
+                    </svg>
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Slider Navigation -->
+
+        <div
+            class="mt-12 flex flex-col md:flex-row items-center justify-between gap-6">
+
+            <!-- Dots -->
+
+            <div class="flex gap-3">
+
+                <span
+                    class="w-10 h-2 rounded-full bg-[#174c35]"></span>
+
+                <span
+                    class="w-2 h-2 rounded-full bg-gray-300"></span>
+
+                <span
+                    class="w-2 h-2 rounded-full bg-gray-300"></span>
+
+            </div>
+
+            <!-- Arrows -->
+
+            <div class="flex gap-4">
+
+                <button
+                    class="w-14 h-14 rounded-full border border-gray-200 hover:bg-[#174c35] hover:text-white transition flex items-center justify-center">
+
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        class="w-6 h-6"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2">
+
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M15 18l-6-6 6-6"/>
+
+                    </svg>
+
+                </button>
+
+                <button
+                    class="w-14 h-14 rounded-full bg-[#174c35] text-white hover:bg-[#123a2a] transition flex items-center justify-center">
+
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        class="w-6 h-6"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2">
+
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M9 6l6 6-6 6"/>
+
+                    </svg>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =====================================================
+SECTION 9 — CTA BANNER
+===================================================== -->
+
+<section id="cta" class="relative py-24 overflow-hidden">
+
+    <!-- Background Image -->
+
+    <div class="absolute inset-0">
+
+        <img
+            src="images/cta-banner.jpg"
+            alt="Luxury Property"
+            class="w-full h-full object-cover">
+
+        <!-- Dark Overlay -->
+
+        <div
+            class="absolute inset-0 bg-[#173726]/75">
+        </div>
+
+    </div>
+
+    <!-- Decorative Glow -->
+
+    <div
+        class="absolute -top-24 -right-24 w-96 h-96 rounded-full bg-[#d4a017]/20 blur-3xl">
+    </div>
+
+    <div
+        class="relative max-w-6xl mx-auto px-6 lg:px-8 text-center">
+
+        <!-- Badge -->
+
+        <span
+            class="inline-flex items-center px-5 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-white uppercase tracking-[0.2em] text-sm font-semibold">
+
+            Your Dream Home Awaits
+
+        </span>
+
+        <!-- Heading -->
+
+        <h2
+            class="mt-8 font-display text-4xl md:text-5xl lg:text-6xl leading-tight text-white">
+
+            Let's Help You Find
+            <br>
+            Your Perfect Property.
+
+        </h2>
+
+        <!-- Description -->
+
+        <p
+            class="mt-8 max-w-3xl mx-auto text-lg leading-9 text-white/85">
+
+            Browse verified luxury apartments, duplexes, villas and
+            investment properties across Abuja. Our experienced team is
+            ready to guide you from your first inquiry to collecting
+            your keys.
+
+        </p>
+
+        <!-- Buttons -->
+
+        <div
+            class="mt-12 flex flex-wrap justify-center gap-5">
+
+            <!-- Primary -->
+
+            <a href="#properties"
+                class="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-[#d4a017] hover:bg-[#bf8d12] transition text-[#173726] font-semibold shadow-xl">
+
+                Browse Properties
+
+                <svg xmlns="http://www.w3.org/2000/svg"
+                    class="w-5 h-5"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2">
+
+                    <path stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M5 12h14"/>
+
+                    <path stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M13 5l7 7-7 7"/>
+
+                </svg>
+
+            </a>
+
+            <!-- Secondary -->
+
+            <a href="#contact"
+                class="inline-flex items-center gap-3 px-8 py-4 rounded-full border border-white/40 text-white hover:bg-white hover:text-[#173726] transition font-semibold backdrop-blur-md">
+
+                Contact Agent
+
+            </a>
+
+        </div>
+
+        <!-- Statistics -->
+
+        <div
+            class="mt-20 grid grid-cols-2 lg:grid-cols-4 gap-8">
+
+            <div>
+
+                <h3
+                    class="text-4xl font-bold text-white">
+
+                    500+
+
+                </h3>
+
+                <p
+                    class="mt-2 text-white/70 uppercase tracking-widest text-sm">
+
+                    Happy Clients
+
+                </p>
+
+            </div>
+
+            <div>
+
+                <h3
+                    class="text-4xl font-bold text-white">
+
+                    250+
+
+                </h3>
+
+                <p
+                    class="mt-2 text-white/70 uppercase tracking-widest text-sm">
+
+                    Homes Sold
+
+                </p>
+
+            </div>
+
+            <div>
+
+                <h3
+                    class="text-4xl font-bold text-white">
+
+                    10+
+
+                </h3>
+
+                <p
+                    class="mt-2 text-white/70 uppercase tracking-widest text-sm">
+
+                    Years Experience
+
+                </p>
+
+            </div>
+
+            <div>
+
+                <h3
+                    class="text-4xl font-bold text-white">
+
+                    24/7
+
+                </h3>
+
+                <p
+                    class="mt-2 text-white/70 uppercase tracking-widest text-sm">
+
+                    Client Support
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =====================================================
+SECTION 10 — CONTACT SECTION
+===================================================== -->
+
+<section id="contact" class="py-24 bg-[#f8f6f1] overflow-hidden">
+
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+
+        <!-- Section Header -->
+
+        <div class="text-center max-w-3xl mx-auto">
+
+            <span
+                class="inline-block uppercase tracking-[0.25em] text-[#b98d3d] text-sm font-semibold">
+
+                Contact Us
+
+            </span>
+
+            <h2
+                class="mt-5 font-display text-4xl md:text-5xl lg:text-6xl leading-tight text-[#173726]">
+
+                Let's Start Your
+                Property Journey
+
+            </h2>
+
+            <p
+                class="mt-8 text-lg leading-9 text-gray-600">
+
+                Have questions or found a property you love?
+                Send us a message and we'll get back to you as soon as
+                possible.
+
+            </p>
+
+        </div>
+
+        <!-- Contact Content -->
+
+        <div
+            class="mt-20 grid lg:grid-cols-5 gap-12 items-start">
+
+            <!-- ==================================
+            LEFT INFO
+            =================================== -->
+
+            <div class="lg:col-span-2 space-y-8">
+
+                <!-- Card -->
+
+                <div
+                    class="bg-white rounded-[30px] p-8 shadow-lg border border-gray-100">
+
+                    <div
+                        class="w-16 h-16 rounded-2xl bg-[#174c35] text-white flex items-center justify-center">
+
+                        📍
+
+                    </div>
+
+                    <h3
+                        class="mt-6 text-2xl font-semibold text-[#173726]">
+
+                        Office Address
+
+                    </h3>
+
+                    <p
+                        class="mt-3 text-gray-600 leading-8">
+
+                        24 Adetokunbo Ademola Crescent,
+                        Wuse II, Abuja,
+                        Nigeria.
+
+                    </p>
+
+                </div>
+
+                <div
+                    class="bg-white rounded-[30px] p-8 shadow-lg border border-gray-100">
+
+                    <div
+                        class="w-16 h-16 rounded-2xl bg-[#174c35] text-white flex items-center justify-center">
+
+                        📞
+
+                    </div>
+
+                    <h3
+                        class="mt-6 text-2xl font-semibold text-[#173726]">
+
+                        Phone
+
+                    </h3>
+
+                    <p
+                        class="mt-3 text-gray-600">
+
+                        +234 812 345 6789
+
+                    </p>
+
+                </div>
+
+                <div
+                    class="bg-white rounded-[30px] p-8 shadow-lg border border-gray-100">
+
+                    <div
+                        class="w-16 h-16 rounded-2xl bg-[#174c35] text-white flex items-center justify-center">
+
+                        ✉️
+
+                    </div>
+
+                    <h3
+                        class="mt-6 text-2xl font-semibold text-[#173726]">
+
+                        Email
+
+                    </h3>
+
+                    <p
+                        class="mt-3 text-gray-600">
+
+                        hello@lekkihomes.com
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- ==================================
+            CONTACT FORM
+            =================================== -->
+
+            <div
+                class="lg:col-span-3 bg-white rounded-[36px] p-8 md:p-12 shadow-xl border border-gray-100">
+
+                <form class="space-y-6">
+
+                    <!-- Name -->
+
+                    <div>
+
+                        <label
+                            class="block mb-2 font-medium text-[#173726]">
+
+                            Full Name
+
+                        </label>
+
+                        <input
+                            type="text"
+                            placeholder="John Doe"
+                            class="w-full rounded-2xl border border-gray-200 px-5 py-4 focus:outline-none focus:ring-2 focus:ring-[#174c35]">
+
+                    </div>
+
+                    <!-- Email -->
+
+                    <div>
+
+                        <label
+                            class="block mb-2 font-medium text-[#173726]">
+
+                            Email Address
+
+                        </label>
+
+                        <input
+                            type="email"
+                            placeholder="john@example.com"
+                            class="w-full rounded-2xl border border-gray-200 px-5 py-4 focus:outline-none focus:ring-2 focus:ring-[#174c35]">
+
+                    </div>
+
+                    <!-- Phone -->
+
+                    <div>
+
+                        <label
+                            class="block mb-2 font-medium text-[#173726]">
+
+                            Phone Number
+
+                        </label>
+
+                        <input
+                            type="tel"
+                            placeholder="+234..."
+                            class="w-full rounded-2xl border border-gray-200 px-5 py-4 focus:outline-none focus:ring-2 focus:ring-[#174c35]">
+
+                    </div>
+
+                    <!-- Subject -->
+
+                    <div>
+
+                        <label
+                            class="block mb-2 font-medium text-[#173726]">
+
+                            Subject
+
+                        </label>
+
+                        <input
+                            type="text"
+                            placeholder="Property Inquiry"
+                            class="w-full rounded-2xl border border-gray-200 px-5 py-4 focus:outline-none focus:ring-2 focus:ring-[#174c35]">
+
+                    </div>
+
+                    <!-- Message -->
+
+                    <div>
+
+                        <label
+                            class="block mb-2 font-medium text-[#173726]">
+
+                            Message
+
+                        </label>
+
+                        <textarea
+                            rows="6"
+                            placeholder="Tell us about the property you're looking for..."
+                            class="w-full rounded-2xl border border-gray-200 px-5 py-4 resize-none focus:outline-none focus:ring-2 focus:ring-[#174c35]"></textarea>
+
+                    </div>
+
+                    <!-- Button -->
+
+                    <button
+                        type="submit"
+                        class="inline-flex items-center gap-3 bg-[#174c35] hover:bg-[#123a2a] transition text-white font-semibold px-8 py-4 rounded-full shadow-lg">
+
+                        Send Message
+
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            class="w-5 h-5"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2">
+
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M5 12h14"/>
+
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M13 5l7 7-7 7"/>
+
+                        </svg>
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =====================================================
+SECTION 11 — FOOTER
+===================================================== -->
+
+<footer class="relative bg-[#173726] text-white overflow-hidden">
+
+    <!-- Decorative Background -->
+
+    <div class="absolute inset-0 pointer-events-none">
+
+        <div
+            class="absolute -top-24 -left-24 w-72 h-72 rounded-full bg-white/5 blur-3xl">
+        </div>
+
+        <div
+            class="absolute bottom-0 right-0 w-96 h-96 rounded-full bg-[#d4a017]/10 blur-3xl">
+        </div>
+
+    </div>
+
+    <div class="relative max-w-7xl mx-auto px-6 lg:px-8">
+
+        <!-- Top Footer -->
+
+        <div class="py-20 grid md:grid-cols-2 lg:grid-cols-4 gap-14">
+
+            <!-- Company -->
+
+            <div>
+
+                <a href="#"
+                    class="text-3xl font-display font-bold">
+
+                    Lekki<span class="text-[#d4a017]">Homes</span>
+
+                </a>
+
+                <p
+                    class="mt-6 leading-8 text-white/70">
+
+                    Helping families, investors and businesses discover
+                    premium properties across Abuja with honesty,
+                    professionalism and exceptional service.
+
+                </p>
+
+                <!-- Social -->
+
+                <div class="flex gap-4 mt-8">
+
+                    <a href="#"
+                        class="w-11 h-11 rounded-full border border-white/15 hover:bg-[#d4a017] hover:text-[#173726] transition flex items-center justify-center">
+
+                        <i class="fab fa-facebook-f"></i>
+
+                    </a>
+
+                    <a href="#"
+                        class="w-11 h-11 rounded-full border border-white/15 hover:bg-[#d4a017] hover:text-[#173726] transition flex items-center justify-center">
+
+                        <i class="fab fa-instagram"></i>
+
+                    </a>
+
+                    <a href="#"
+                        class="w-11 h-11 rounded-full border border-white/15 hover:bg-[#d4a017] hover:text-[#173726] transition flex items-center justify-center">
+
+                        <i class="fab fa-linkedin-in"></i>
+
+                    </a>
+
+                    <a href="#"
+                        class="w-11 h-11 rounded-full border border-white/15 hover:bg-[#d4a017] hover:text-[#173726] transition flex items-center justify-center">
+
+                        <i class="fab fa-whatsapp"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Quick Links -->
+
+            <div>
+
+                <h3
+                    class="text-xl font-semibold">
+
+                    Quick Links
+
+                </h3>
+
+                <ul class="mt-8 space-y-4 text-white/70">
+
+                    <li><a href="#home" class="hover:text-[#d4a017] transition">Home</a></li>
+
+                    <li><a href="#properties" class="hover:text-[#d4a017] transition">Properties</a></li>
+
+                    <li><a href="#services" class="hover:text-[#d4a017] transition">Services</a></li>
+
+                    <li><a href="#agent" class="hover:text-[#d4a017] transition">Agent</a></li>
+
+                    <li><a href="#contact" class="hover:text-[#d4a017] transition">Contact</a></li>
+
+                </ul>
+
+            </div>
+
+            <!-- Services -->
+
+            <div>
+
+                <h3
+                    class="text-xl font-semibold">
+
+                    Services
+
+                </h3>
+
+                <ul class="mt-8 space-y-4 text-white/70">
+
+                    <li>Property Sales</li>
+
+                    <li>Property Rentals</li>
+
+                    <li>Investment Advisory</li>
+
+                    <li>Property Management</li>
+
+                    <li>Legal Documentation</li>
+
+                </ul>
+
+            </div>
+
+            <!-- Newsletter -->
+
+            <div>
+
+                <h3
+                    class="text-xl font-semibold">
+
+                    Stay Updated
+
+                </h3>
+
+                <p
+                    class="mt-6 text-white/70 leading-8">
+
+                    Subscribe to receive new listings and exclusive
+                    property opportunities.
+
+                </p>
+
+                <form class="mt-8">
+
+                    <div
+                        class="flex rounded-full bg-white overflow-hidden">
+
+                        <input
+                            type="email"
+                            placeholder="Email address"
+                            class="flex-1 px-5 py-4 text-gray-800 outline-none">
+
+                        <button
+                            type="submit"
+                            class="bg-[#d4a017] hover:bg-[#bf8d12] transition px-6 font-semibold text-[#173726]">
+
+                            Join
+
+                        </button>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+
+        <!-- Divider -->
+
+        <div class="border-t border-white/10"></div>
+
+        <!-- Bottom Footer -->
+
+        <div
+            class="py-8 flex flex-col md:flex-row items-center justify-between gap-5">
+
+            <p
+                class="text-white/60 text-sm">
+
+                © 2026 LekkiHomes. All rights reserved.
+
+            </p>
+
+            <div
+                class="flex flex-wrap justify-center gap-8 text-sm text-white/60">
+
+                <a href="#" class="hover:text-[#d4a017] transition">
+                    Privacy Policy
+                </a>
+
+                <a href="#" class="hover:text-[#d4a017] transition">
+                    Terms & Conditions
+                </a>
+
+                <a href="#" class="hover:text-[#d4a017] transition">
+                    Cookie Policy
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+<!-- =====================================================
+REQUIRED FILES
+===================================================== -->
+
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+<style>
+body{
+    font-family:'Inter',sans-serif;
+}
+
+.font-display{
+    font-family:'Cormorant Garamond',serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+</style>
+
+
+
+
+</body> 
+</html>

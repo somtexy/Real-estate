@@ -1,0 +1,1864 @@
+<!DOCTYPE html>
+ <html lang="en">
+     <head> 
+        <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Takki Homes</title> <script src="https://cdn.tailwindcss.com"></script> <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"> <style> body{ font-family:Inter,sans-serif; background:#f8f6f1; } .font-display{ font-family:"Playfair Display",serif; } .nav-link{ position:relative; } .nav-link::after{ content:""; position:absolute; left:0; bottom:-5px; width:0; height:1.5px; background:#154734; transition:.3s; } .nav-link:hover::after{ width:100%; } </style> </head> <body> <!-- =========================================== NAVIGATION =========================================== --> <header class="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-100"> <div class="max-w-[1180px] mx-auto h-[72px] flex items-center justify-between px-6 lg:px-8"> <!-- Logo --> <a href="index.html" class="flex items-center gap-3"> <div class="w-9 h-9 rounded-full bg-[#174c35] flex items-center justify-center text-white"> <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 3L4 9v11h16V9z"/> </svg> </div> <span class="font-display text-[20px] font-semibold text-[#18291d] tracking-tight"> Takki Homes </span> </a> <!-- Desktop Navigation --> <nav class="hidden lg:flex items-center gap-10 text-[14px] text-[#33463d] font-medium">
+
+<a href="#" class="nav-link">Properties
+<span
+                            class="absolute left-0 -bottom-2 w-full h-[2px] bg-[#d7a63d] rounded-full">
+                        </span>
+
+</a>
+
+<a href="#" class="nav-link">Why Us</a>
+
+<a href="#" class="nav-link">Agent</a>
+
+<a href="#" class="nav-link">Services</a>
+
+<a href="#" class="nav-link">Contact</a>
+
+</nav> <!-- WhatsApp Button --> <div class="hidden lg:flex">
+
+<button class="h-11 px-6 rounded-full bg-[#22C55E] hover:bg-[#1fb555] transition text-white font-semibold text-[14px] flex items-center gap-2 shadow-sm">
+
+<svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+
+<path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.198.297-.767.966-.94 1.164-.173.198-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.496.099-.198.05-.372-.025-.521-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.075-.792.372-.272.297-1.04 1.016-1.04 2.479s1.065 2.875 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.262.489 1.693.626.711.226 1.358.194 1.87.118.571-.085 1.758-.719 2.006-1.414.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/> </svg>
+
+WhatsApp
+
+</button> </div> <!-- Mobile Toggle -->
+
+<button id="menuBtn" class="lg:hidden w-10 h-10 rounded-lg border border-gray-200 flex items-center justify-center">
+
+<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2">
+
+<path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+
+</svg> </button> </div> <!-- Mobile Menu --> <div id="mobileMenu" class="hidden lg:hidden border-t bg-white"> <nav class="flex flex-col py-3"> <a href="#" class="px-7 py-4 hover:bg-gray-50"> Properties </a> <a href="#" class="px-7 py-4 hover:bg-gray-50"> Why Us </a> <a href="#" class="px-7 py-4 hover:bg-gray-50"> Agent </a> <a href="#" class="px-7 py-4 hover:bg-gray-50"> Services </a> <a href="#" class="px-7 py-4 hover:bg-gray-50"> Contact </a> <div class="px-7 pt-4 pb-6">
+
+<button class="w-full h-11 rounded-full bg-[#22C55E] text-white font-semibold">
+
+WhatsApp
+
+</button> 
+</div> 
+</nav> 
+</div> 
+</header> 
+<script> const btn=document.getElementById('menuBtn'); const menu=document.getElementById('mobileMenu'); btn.addEventListener('click',()=>{ menu.classList.toggle('hidden'); }); </script> 
+
+
+<!-- =========================
+HERO SECTION
+========================= -->
+
+<section class="relative pt-[72px]">
+
+    <!-- Background Image -->
+
+    <div class="relative h-[700px] overflow-hidden">
+
+        <img
+            src="images/image 1.png"
+            alt="Luxury Apartment"
+            class="absolute inset-0 w-full h-full object-cover">
+
+        <!-- Dark Green Overlay -->
+
+        <div class="absolute inset-0 bg-[#0f3d2e]/75"></div>
+
+        <!-- Gradient Overlay -->
+
+        <div class="absolute inset-0 bg-gradient-to-r from-[#0d3528]/90 via-[#0d3528]/55 to-transparent"></div>
+
+        <!-- Hero Content -->
+
+        <div class="relative z-10 max-w-7xl mx-auto h-full px-6 lg:px-8 flex items-center">
+
+            <div class="max-w-2xl">
+
+                <!-- Badge -->
+
+                <div
+                    class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur border border-white/20 text-white text-sm">
+
+                    <span class="w-2 h-2 rounded-full bg-green-400"></span>
+
+                    Verified Abuja Listings
+
+                </div>
+
+                <!-- Heading -->
+
+                <h1 class="mt-8 font-display text-white leading-tight text-5xl lg:text-7xl font-bold">
+
+                    Find Your Dream
+
+                    <br>
+
+                    <span class="text-[#F4C04E] italic">
+
+                        Property
+
+                    </span>
+
+                    
+
+                </h1>
+
+                <!-- Description -->
+
+                <p class="mt-8 text-lg leading-8 text-gray-200 max-w-xl">
+
+                    Browse verified properties carefully selected for buyers,
+                renters, investors and businesses across Abuja.
+
+                </p>
+
+                <!-- Buttons -->
+
+                <div class="mt-10 flex flex-wrap gap-4">
+
+                    <a
+                        href="#properties"
+                        class="inline-flex items-center rounded-full bg-[#F4B942] px-8 py-4 font-semibold text-[#173B2C] hover:bg-[#ffc64f] transition">
+
+                        Browse Listings
+
+                    </a>
+
+                    <a
+                        href="#"
+                        class="inline-flex items-center rounded-full border border-white/30 bg-white/10 backdrop-blur px-8 py-4 text-white hover:bg-white/20 transition">
+
+                        Chat on WhatsApp
+
+                    </a>
+
+                </div>
+
+               
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+FLOATING SEARCH BAR
+Place this immediately BELOW the Hero Section
+========================= -->
+
+<section class="relative z-30">
+    <div class="max-w-6xl mx-auto px-6 lg:px-8">
+
+        <div
+            class="bg-white rounded-2xl shadow-[0_18px_45px_rgba(0,0,0,0.12)] border border-gray-100 -mt-14 relative">
+
+            <form
+                class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 p-5">
+
+                <!-- Location -->
+
+                <div>
+
+                    <label
+                        class="block text-[11px] font-semibold uppercase tracking-[0.18em] text-gray-500 mb-2">
+
+                        Location
+
+                    </label>
+
+                    <div
+                        class="h-12 border border-gray-200 rounded-xl flex items-center px-4 bg-white">
+
+                        <!-- Location Icon -->
+
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="w-5 h-5 text-gray-400 mr-3"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2">
+
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M17.657 16.657L13.414 20.9a2 2 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M15 11a3 3 0 11-6 0 3 3 0 016 0"/>
+
+                        </svg>
+
+                        <input
+                            type="text"
+                            placeholder="e.g Wuse 2, Abuja"
+                            class="w-full outline-none text-sm text-gray-700 placeholder:text-gray-400 bg-transparent">
+
+                    </div>
+
+                </div>
+
+                <!-- Property Type -->
+
+                <div>
+
+                    <label
+                        class="block text-[11px] font-semibold uppercase tracking-[0.18em] text-gray-500 mb-2">
+
+                        Property Type
+
+                    </label>
+
+                    <select
+                        class="w-full h-12 rounded-xl border border-gray-200 text-sm px-4 outline-none focus:ring-2 focus:ring-green-700">
+
+                        <option>For Rent</option>
+
+                        <option>For Sale</option>
+
+                        <option>Shortlet</option>
+
+                        <option>Commercial</option>
+
+                    </select>
+
+                </div>
+
+                <!-- Price -->
+
+                <div>
+
+                    <label
+                        class="block text-[11px] font-semibold uppercase tracking-[0.18em] text-gray-500 mb-2">
+
+                        Price Range
+
+                    </label>
+
+                    <select
+                        class="w-full h-12 rounded-xl border border-gray-200 text-sm px-4 outline-none focus:ring-2 focus:ring-green-700">
+
+                        <option>Any Price</option>
+
+                        <option>₦10M - ₦30M</option>
+
+                        <option>₦30M - ₦70M</option>
+
+                        <option>₦70M+</option>
+
+                    </select>
+
+                </div>
+
+                <!-- Search Button -->
+
+                <div class="flex items-end">
+
+                    <button
+                        type="submit"
+                        class="w-full h-12 rounded-xl bg-[#114B37] hover:bg-[#0d3d2d] transition-all duration-300 text-white font-semibold flex items-center justify-center gap-2">
+
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="w-5 h-5"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2">
+
+                            <circle cx="11" cy="11" r="7"></circle>
+
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M20 20l-3.5-3.5"></path>
+
+                        </svg>
+
+                        Search
+
+                    </button>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- =====================================================
+SECTION 4 — FEATURED LISTINGS HEADER
+(properties.html)
+
+Place immediately after Section 3
+===================================================== -->
+
+<section id="featured-properties" class="pt-28 pb-10 bg-[#faf8f4]">
+
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+
+        <!-- Top Row -->
+
+        <div
+            class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-8">
+
+            <!-- Left -->
+
+            <div class="max-w-3xl">
+
+                <span
+                    class="inline-flex items-center gap-2 text-[#c59637] uppercase tracking-[0.22em] text-sm font-semibold">
+
+                    <span
+                        class="w-2 h-2 rounded-full bg-[#c59637]">
+                    </span>
+
+                    Featured Listings
+
+                </span>
+
+                <h2
+                    class="mt-5 font-display text-4xl md:text-5xl lg:text-6xl text-[#173726] leading-tight">
+
+                    Premium Picks
+
+                    <span class="italic text-[#c59637]">
+
+                        This Week
+
+                    </span>
+
+                </h2>
+
+                <p
+                    class="mt-7 max-w-2xl text-lg leading-9 text-gray-600">
+
+                    Explore our hand-picked luxury properties carefully
+                    selected for buyers looking for quality, comfort,
+                    investment value and prime locations across Abuja.
+
+                </p>
+
+            </div>
+
+            <!-- Right -->
+
+            <div
+                class="flex items-center gap-4">
+
+                <button
+                    class="w-14 h-14 rounded-full border border-gray-200 bg-white hover:bg-[#174c35] hover:text-white transition flex items-center justify-center">
+
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        class="w-6 h-6"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2">
+
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M15 18l-6-6 6-6"/>
+
+                    </svg>
+
+                </button>
+
+                <button
+                    class="w-14 h-14 rounded-full bg-[#174c35] text-white hover:bg-[#123a2a] transition flex items-center justify-center shadow-lg">
+
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        class="w-6 h-6"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2">
+
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M9 6l6 6-6 6"/>
+
+                    </svg>
+
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- Divider -->
+
+        <div
+            class="mt-12 w-full h-px bg-gradient-to-r from-transparent via-[#d8d2c8] to-transparent">
+        </div>
+
+        <!-- Property Cards Grid Starts -->
+
+        <div
+            class="mt-16 grid grid-cols-1 lg:grid-cols-3 gap-8">
+
+            <!-- Cards begin in Section 5 -->
+
+            <!-- =====================================================
+SECTION 5 — FEATURED PROPERTY CARDS
+(properties.html)
+Place immediately after Section 4
+===================================================== -->
+
+<!-- ==========================================
+PROPERTY CARD 1
+========================================== -->
+
+<article
+    class="group bg-white rounded-[30px] overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
+
+    <!-- Image -->
+
+    <div class="relative overflow-hidden h-[290px]">
+
+        <img
+            src="images/img1.jpg"
+            alt="Luxury Duplex"
+            class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
+
+        <!-- Overlay -->
+
+        <div
+            class="absolute inset-0 bg-gradient-to-t from-black/65 via-black/10 to-transparent">
+        </div>
+
+        <!-- Status -->
+
+        <span
+            class="absolute top-5 left-5 bg-[#174c35] text-white text-xs font-semibold px-4 py-2 rounded-full">
+
+            FOR SALE
+
+        </span>
+
+        <!-- Featured -->
+
+        <span
+            class="absolute top-5 right-5 bg-[#d4a017] text-[#173726] text-xs font-bold px-4 py-2 rounded-full">
+
+            FEATURED
+
+        </span>
+
+        <!-- Price -->
+
+        <div
+            class="absolute bottom-5 left-5">
+
+            <h3
+                class="text-white text-3xl font-bold">
+
+                ₦185M
+
+            </h3>
+
+        </div>
+
+    </div>
+
+    <!-- Content -->
+
+    <div class="p-7">
+
+        <div class="flex justify-between items-start gap-4">
+
+            <div>
+
+                <h3
+                    class="text-2xl font-display font-semibold text-[#173726]">
+
+                    Luxury Smart Duplex
+
+                </h3>
+
+                <p
+                    class="mt-2 text-gray-500 flex items-center gap-2">
+
+                    📍 Maitama, Abuja
+
+                </p>
+
+            </div>
+
+            <button
+                class="w-11 h-11 rounded-full border border-gray-200 hover:bg-[#174c35] hover:text-white transition">
+
+                ❤
+
+            </button>
+
+        </div>
+
+        <!-- Features -->
+
+        <div
+            class="mt-7 grid grid-cols-3 text-center border-y border-gray-100 py-5">
+
+            <div>
+
+                <p
+                    class="font-semibold text-[#173726]">
+
+                    5
+
+                </p>
+
+                <span
+                    class="text-sm text-gray-500">
+
+                    Beds
+
+                </span>
+
+            </div>
+
+            <div>
+
+                <p
+                    class="font-semibold text-[#173726]">
+
+                    6
+
+                </p>
+
+                <span
+                    class="text-sm text-gray-500">
+
+                    Baths
+
+                </span>
+
+            </div>
+
+            <div>
+
+                <p
+                    class="font-semibold text-[#173726]">
+
+                    650m²
+
+                </p>
+
+                <span
+                    class="text-sm text-gray-500">
+
+                    Area
+
+                </span>
+
+            </div>
+
+        </div>
+
+        <!-- Bottom -->
+
+        <div
+            class="mt-6 flex justify-between items-center">
+
+            <div class="flex items-center gap-3">
+
+                <img
+                    src="images/cl1.jpg"
+                    class="w-11 h-11 rounded-full object-cover"
+                    alt="Agent">
+
+                <div>
+
+                    <p
+                        class="text-sm text-gray-500">
+
+                        Listed by
+
+                    </p>
+
+                    <h4
+                        class="font-semibold text-[#173726]">
+
+                        Daniel James
+
+                    </h4>
+
+                </div>
+
+            </div>
+
+            <a href="product.html"
+                class="text-[#174c35] font-semibold hover:text-[#d4a017] transition">
+
+                View →
+
+            </a>
+
+        </div>
+
+    </div>
+
+</article>
+
+<!-- ==========================================
+PROPERTY CARD 2
+========================================== -->
+
+<article
+    class="group bg-white rounded-[30px] overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
+
+    <div class="relative overflow-hidden h-[290px]">
+
+       <video
+    class="w-full h-full object-cover group-hover:scale-110 transition duration-700"
+    autoplay
+    muted
+    loop
+    playsinline
+>
+    <source src="images/img2.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+        <div
+            class="absolute inset-0 bg-gradient-to-t from-black/65 via-black/10 to-transparent">
+        </div>
+
+        <span
+            class="absolute top-5 left-5 bg-[#174c35] text-white text-xs font-semibold px-4 py-2 rounded-full">
+
+            FOR RENT
+
+        </span>
+
+        <div
+            class="absolute bottom-5 left-5">
+
+            <h3
+                class="text-white text-3xl font-bold">
+
+                ₦8.5M/Yr
+
+            </h3>
+
+        </div>
+
+    </div>
+
+    <div class="p-7">
+
+        <div class="flex justify-between">
+
+            <div>
+
+                <h3
+                    class="text-2xl font-display font-semibold text-[#173726]">
+
+                    Modern Penthouse
+
+                </h3>
+
+                <p
+                    class="mt-2 text-gray-500">
+
+                    📍 Asokoro, Abuja
+
+                </p>
+
+            </div>
+
+            <button
+                class="w-11 h-11 rounded-full border border-gray-200 hover:bg-[#174c35] hover:text-white transition">
+
+                ❤
+
+            </button>
+
+        </div>
+
+        <div
+            class="mt-7 grid grid-cols-3 text-center border-y border-gray-100 py-5">
+
+            <div>
+
+                <p class="font-semibold text-[#173726]">4</p>
+
+                <span class="text-sm text-gray-500">Beds</span>
+
+            </div>
+
+            <div>
+
+                <p class="font-semibold text-[#173726]">5</p>
+
+                <span class="text-sm text-gray-500">Baths</span>
+
+            </div>
+
+            <div>
+
+                <p class="font-semibold text-[#173726]">420m²</p>
+
+                <span class="text-sm text-gray-500">Area</span>
+
+            </div>
+
+        </div>
+
+        <div
+            class="mt-6 flex justify-between items-center">
+
+            <div class="flex items-center gap-3">
+
+                <img
+                    src="images/cl2.jpg"
+                    class="w-11 h-11 rounded-full object-cover"
+                    alt="Agent">
+
+                <div>
+
+                    <p class="text-sm text-gray-500">
+
+                        Listed by
+
+                    </p>
+
+                    <h4 class="font-semibold text-[#173726]">
+
+                        James Bello
+
+                    </h4>
+
+                </div>
+
+            </div>
+
+            <a href="#"
+                class="text-[#174c35] font-semibold hover:text-[#d4a017] transition">
+
+                View →
+
+            </a>
+
+        </div>
+
+    </div>
+
+</article>
+
+<!-- ==========================================
+PROPERTY CARD 3
+========================================== -->
+
+<article
+    class="group bg-white rounded-[30px] overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
+
+    <div class="relative overflow-hidden h-[290px]">
+
+         <video
+    class="w-full h-full object-cover group-hover:scale-110 transition duration-700"
+    autoplay
+    muted
+    loop
+    playsinline
+>
+    <source src="images/img3.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+
+        <div
+            class="absolute inset-0 bg-gradient-to-t from-black/65 via-black/10 to-transparent">
+        </div>
+
+        <span
+            class="absolute top-5 left-5 bg-[#174c35] text-white text-xs font-semibold px-4 py-2 rounded-full">
+
+            NEW
+
+        </span>
+
+        <div
+            class="absolute bottom-5 left-5">
+
+            <h3
+                class="text-white text-3xl font-bold">
+
+                ₦320M
+
+            </h3>
+
+        </div>
+
+    </div>
+
+    <div class="p-7">
+
+        <div class="flex justify-between">
+
+            <div>
+
+                <h3
+                    class="text-2xl font-display font-semibold text-[#173726]">
+
+                    Executive Villa
+
+                </h3>
+
+                <p
+                    class="mt-2 text-gray-500">
+
+                    📍 Guzape, Abuja
+
+                </p>
+
+            </div>
+
+            <button
+                class="w-11 h-11 rounded-full border border-gray-200 hover:bg-[#174c35] hover:text-white transition">
+
+                ❤
+
+            </button>
+
+        </div>
+
+        <div
+            class="mt-7 grid grid-cols-3 text-center border-y border-gray-100 py-5">
+
+            <div>
+
+                <p class="font-semibold text-[#173726]">6</p>
+
+                <span class="text-sm text-gray-500">Beds</span>
+
+            </div>
+
+            <div>
+
+                <p class="font-semibold text-[#173726]">7</p>
+
+                <span class="text-sm text-gray-500">Baths</span>
+
+            </div>
+
+            <div>
+
+                <p class="font-semibold text-[#173726]">850m²</p>
+
+                <span class="text-sm text-gray-500">Area</span>
+
+            </div>
+
+        </div>
+
+        <div
+            class="mt-6 flex justify-between items-center">
+
+            <div class="flex items-center gap-3">
+
+                <img
+                    src="images/cl3.webp"
+                    class="w-11 h-11 rounded-full object-cover"
+                    alt="Agent">
+
+                <div>
+
+                    <p class="text-sm text-gray-500">Listed by</p>
+
+                    <h4 class="font-semibold text-[#173726]">
+
+                        Samuel Peters
+
+                    </h4>
+
+                </div>
+
+            </div>
+
+            <a href="#"
+                class="text-[#174c35] font-semibold hover:text-[#d4a017] transition">
+
+                View →
+
+            </a>
+
+        </div>
+
+    </div>
+
+</article>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- =====================================================
+SECTION 6 — ALL LISTINGS
+(properties.html)
+Place immediately after Section 5
+===================================================== -->
+
+<section id="all-properties" class="py-24 bg-white">
+
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+
+        <!-- Section Header -->
+
+        <div
+            class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-8">
+
+            <div>
+
+                <span
+                    class="inline-flex items-center gap-2 text-[#c59637] uppercase tracking-[0.22em] text-sm font-semibold">
+
+                    <span class="w-2 h-2 rounded-full bg-[#c59637]"></span>
+
+                    All Properties
+
+                </span>
+
+                <h2
+                    class="mt-5 font-display text-4xl md:text-5xl text-[#173726] leading-tight">
+
+                    Browse Every
+
+                    <span class="italic text-[#c59637]">
+
+                        Listing
+
+                    </span>
+
+                </h2>
+
+                <p
+                    class="mt-5 max-w-2xl text-lg text-gray-600 leading-8">
+
+                    Explore apartments, duplexes, villas, terraces,
+                    offices and commercial spaces across Abuja.
+
+                </p>
+
+            </div>
+
+            <!-- Results -->
+
+            <div
+                class="flex items-center gap-4">
+
+                <div
+                    class="px-5 py-3 rounded-2xl bg-[#f7f5ef] text-[#173726] font-medium">
+
+                    Showing
+                    <span class="font-bold">1–6</span>
+                    of
+                    <span class="font-bold">128</span>
+                    Properties
+
+                </div>
+
+                <select
+                    class="h-12 rounded-xl border border-gray-200 px-4 text-sm focus:outline-none focus:ring-2 focus:ring-[#174c35]">
+
+                    <option>Newest</option>
+                    <option>Price (Low to High)</option>
+                    <option>Price (High to Low)</option>
+                    <option>Most Popular</option>
+
+                </select>
+
+            </div>
+
+        </div>
+
+        <!-- Grid -->
+
+        <div
+            class="mt-16 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
+
+            <!-- ======================================
+PROPERTY 1
+====================================== -->
+
+            <article
+                class="group rounded-[28px] overflow-hidden bg-white border border-gray-100 shadow hover:shadow-xl transition duration-300">
+
+                <div class="relative h-64 overflow-hidden">
+
+                    <video
+    class="w-full h-full object-cover group-hover:scale-110 transition duration-700"
+    autoplay
+    muted
+    loop
+    playsinline
+>
+    <source src="images/pro1.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+                    <span
+                        class="absolute top-4 left-4 bg-[#174c35] text-white text-xs px-3 py-2 rounded-full">
+
+                        For Sale
+
+                    </span>
+
+                </div>
+
+                <div class="p-6">
+
+                    <div
+                        class="flex justify-between items-center">
+
+                        <h3
+                            class="font-display text-2xl text-[#173726]">
+
+                            Modern Duplex
+
+                        </h3>
+
+                        <span
+                            class="text-[#174c35] font-bold">
+
+                            ₦165M
+
+                        </span>
+
+                    </div>
+
+                    <p
+                        class="mt-2 text-gray-500">
+
+                        📍 Maitama, Abuja
+
+                    </p>
+
+                    <div
+                        class="mt-6 flex justify-between text-sm text-gray-500 border-t border-gray-100 pt-5">
+
+                        <span>5 Beds</span>
+
+                        <span>6 Baths</span>
+
+                        <span>650m²</span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+            <!-- ======================================
+PROPERTY 2
+====================================== -->
+
+            <article
+                class="group rounded-[28px] overflow-hidden bg-white border border-gray-100 shadow hover:shadow-xl transition">
+
+                <div class="relative h-64 overflow-hidden">
+
+                    <video
+    class="w-full h-full object-cover group-hover:scale-110 transition duration-700"
+    autoplay
+    muted
+    loop
+    playsinline
+>
+    <source src="images/pro2.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+                    <span
+                        class="absolute top-4 left-4 bg-[#d4a017] text-[#173726] text-xs px-3 py-2 rounded-full">
+
+                        Featured
+
+                    </span>
+
+                </div>
+
+                <div class="p-6">
+
+                    <div class="flex justify-between">
+
+                        <h3
+                            class="font-display text-2xl text-[#173726]">
+
+                            Smart Apartment
+
+                        </h3>
+
+                        <span
+                            class="text-[#174c35] font-bold">
+
+                            ₦72M
+
+                        </span>
+
+                    </div>
+
+                    <p
+                        class="mt-2 text-gray-500">
+
+                        📍 Wuse II
+
+                    </p>
+
+                    <div
+                        class="mt-6 flex justify-between text-sm text-gray-500 border-t pt-5">
+
+                        <span>3 Beds</span>
+
+                        <span>4 Baths</span>
+
+                        <span>320m²</span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+            <!-- ======================================
+PROPERTY 3
+====================================== -->
+
+            <article
+                class="group rounded-[28px] overflow-hidden bg-white border border-gray-100 shadow hover:shadow-xl transition">
+
+                <div class="relative h-64 overflow-hidden">
+
+                    <img
+                        src="images/pro3.jpg"
+                        class="w-full h-full object-cover group-hover:scale-110 transition duration-700"
+                        alt="Property">
+
+                    <span
+                        class="absolute top-4 left-4 bg-[#174c35] text-white text-xs px-3 py-2 rounded-full">
+
+                        New
+
+                    </span>
+
+                </div>
+
+                <div class="p-6">
+
+                    <div class="flex justify-between">
+
+                        <h3
+                            class="font-display text-2xl text-[#173726]">
+
+                            Luxury Villa
+
+                        </h3>
+
+                        <span
+                            class="text-[#174c35] font-bold">
+
+                            ₦295M
+
+                        </span>
+
+                    </div>
+
+                    <p
+                        class="mt-2 text-gray-500">
+
+                        📍 Guzape
+
+                    </p>
+
+                    <div
+                        class="mt-6 flex justify-between text-sm text-gray-500 border-t pt-5">
+
+                        <span>6 Beds</span>
+
+                        <span>7 Baths</span>
+
+                        <span>900m²</span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+                        <!-- ======================================
+            PROPERTY 4
+            ====================================== -->
+
+            <article
+                class="group rounded-[28px] overflow-hidden bg-white border border-gray-100 shadow hover:shadow-xl transition duration-300">
+
+                <div class="relative h-64 overflow-hidden">
+
+                    <img
+                        src="images/pro4.jpg"
+                        alt="Executive Terrace Duplex"
+                        class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
+
+                    <span
+                        class="absolute top-4 left-4 bg-[#174c35] text-white text-xs px-3 py-2 rounded-full">
+
+                        For Sale
+
+                    </span>
+
+                </div>
+
+                <div class="p-6">
+
+                    <div class="flex justify-between items-start gap-4">
+
+                        <h3
+                            class="font-display text-2xl text-[#173726] leading-tight">
+
+                            Executive Terrace
+
+                        </h3>
+
+                        <span
+                            class="font-bold text-[#174c35]">
+
+                            ₦98M
+
+                        </span>
+
+                    </div>
+
+                    <p class="mt-2 text-gray-500">
+
+                        📍 Katampe Extension
+
+                    </p>
+
+                    <div
+                        class="mt-6 flex justify-between border-t border-gray-100 pt-5 text-sm text-gray-500">
+
+                        <span>4 Beds</span>
+
+                        <span>5 Baths</span>
+
+                        <span>450m²</span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+            <!-- ======================================
+            PROPERTY 5
+            ====================================== -->
+
+            <article
+                class="group rounded-[28px] overflow-hidden bg-white border border-gray-100 shadow hover:shadow-xl transition duration-300">
+
+                <div class="relative h-64 overflow-hidden">
+
+                    <video
+    class="w-full h-full object-cover group-hover:scale-110 transition duration-700"
+    autoplay
+    muted
+    loop
+    playsinline
+>
+    <source src="images/pro5.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+                    <span
+                        class="absolute top-4 left-4 bg-[#d4a017] text-[#173726] text-xs px-3 py-2 rounded-full">
+
+                        Premium
+
+                    </span>
+
+                </div>
+
+                <div class="p-6">
+
+                    <div class="flex justify-between items-start gap-4">
+
+                        <h3
+                            class="font-display text-2xl text-[#173726] leading-tight">
+
+                            Skyline Penthouse
+
+                        </h3>
+
+                        <span
+                            class="font-bold text-[#174c35]">
+
+                            ₦410M
+
+                        </span>
+
+                    </div>
+
+                    <p class="mt-2 text-gray-500">
+
+                        📍 Asokoro
+
+                    </p>
+
+                    <div
+                        class="mt-6 flex justify-between border-t border-gray-100 pt-5 text-sm text-gray-500">
+
+                        <span>5 Beds</span>
+
+                        <span>6 Baths</span>
+
+                        <span>780m²</span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+            <!-- ======================================
+            PROPERTY 6
+            ====================================== -->
+
+            <article
+                class="group rounded-[28px] overflow-hidden bg-white border border-gray-100 shadow hover:shadow-xl transition duration-300">
+
+                <div class="relative h-64 overflow-hidden">
+
+                    <video
+    class="w-full h-full object-cover group-hover:scale-110 transition duration-700"
+    autoplay
+    muted
+    loop
+    playsinline
+>
+    <source src="images/pro6.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+                    <span
+                        class="absolute top-4 left-4 bg-[#174c35] text-white text-xs px-3 py-2 rounded-full">
+
+                        For Rent
+
+                    </span>
+
+                </div>
+
+                <div class="p-6">
+
+                    <div class="flex justify-between items-start gap-4">
+
+                        <h3
+                            class="font-display text-2xl text-[#173726] leading-tight">
+
+                            Luxury Apartment
+
+                        </h3>
+
+                        <span
+                            class="font-bold text-[#174c35]">
+
+                            ₦18M/yr
+
+                        </span>
+
+                    </div>
+
+                    <p class="mt-2 text-gray-500">
+
+                        📍 Jabi, Abuja
+
+                    </p>
+
+                    <div
+                        class="mt-6 flex justify-between border-t border-gray-100 pt-5 text-sm text-gray-500">
+
+                        <span>3 Beds</span>
+
+                        <span>4 Baths</span>
+
+                        <span>310m²</span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =====================================================
+SECTION 7 — PAGINATION + LOAD MORE CTA
+(properties.html)
+
+Place immediately after Section 6
+===================================================== -->
+
+<section class="pb-24 bg-white">
+
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+
+        <!-- =====================================
+        Property Counter
+        ====================================== -->
+
+        <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+
+            <p class="text-gray-500 text-lg">
+
+                Showing
+                <span class="font-semibold text-[#173726]">6</span>
+                of
+                <span class="font-semibold text-[#173726]">128</span>
+                premium properties
+
+            </p>
+
+            <!-- Pagination -->
+
+            <div class="flex items-center gap-3">
+
+                <!-- Previous -->
+
+                <button
+                    class="w-12 h-12 rounded-full border border-gray-200 hover:bg-[#174c35] hover:text-white transition flex items-center justify-center">
+
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        class="w-5 h-5"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2">
+
+                        <path stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M15 18l-6-6 6-6"/>
+
+                    </svg>
+
+                </button>
+
+                <button
+                    class="w-12 h-12 rounded-full bg-[#174c35] text-white font-semibold">
+
+                    1
+
+                </button>
+
+                <button
+                    class="w-12 h-12 rounded-full border border-gray-200 hover:bg-[#174c35] hover:text-white transition">
+
+                    2
+
+                </button>
+
+                <button
+                    class="w-12 h-12 rounded-full border border-gray-200 hover:bg-[#174c35] hover:text-white transition">
+
+                    3
+
+                </button>
+
+                <span class="px-2 text-gray-400">...</span>
+
+                <button
+                    class="w-12 h-12 rounded-full border border-gray-200 hover:bg-[#174c35] hover:text-white transition">
+
+                    12
+
+                </button>
+
+                <!-- Next -->
+
+                <button
+                    class="w-12 h-12 rounded-full border border-gray-200 hover:bg-[#174c35] hover:text-white transition flex items-center justify-center">
+
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        class="w-5 h-5"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2">
+
+                        <path stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M9 6l6 6-6 6"/>
+
+                    </svg>
+
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- =====================================
+        Load More
+        ====================================== -->
+
+        <div class="mt-16 text-center">
+
+            <button
+                class="inline-flex items-center gap-3 bg-[#174c35] hover:bg-[#123a2a] text-white font-semibold px-10 py-5 rounded-2xl shadow-xl transition-all duration-300 hover:-translate-y-1">
+
+                Load More Properties
+
+                <svg xmlns="http://www.w3.org/2000/svg"
+                    class="w-5 h-5"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2">
+
+                    <path stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M19 9l-7 7-7-7"/>
+
+                </svg>
+
+            </button>
+
+        </div>
+
+        <!-- =====================================
+        Bottom CTA
+        ====================================== -->
+
+        <div
+            class="mt-24 rounded-[36px] bg-gradient-to-r from-[#173726] to-[#20543d] overflow-hidden">
+
+            <div
+                class="px-8 py-16 md:px-16 flex flex-col lg:flex-row items-center justify-between gap-10">
+
+                <!-- Left -->
+
+                <div class="max-w-2xl">
+
+                    <span
+                        class="inline-block text-[#d4a017] uppercase tracking-[0.22em] text-sm font-semibold">
+
+                        Can't Find The Right Property?
+
+                    </span>
+
+                    <h2
+                        class="mt-5 font-display text-4xl lg:text-5xl text-white leading-tight">
+
+                        Let Our Experts Help
+                        You Find It.
+
+                    </h2>
+
+                    <p
+                        class="mt-6 text-white/80 text-lg leading-8">
+
+                        Tell us exactly what you're looking for and our team
+                        will recommend verified properties that match your
+                        budget, location and lifestyle.
+
+                    </p>
+
+                </div>
+
+                <!-- Right -->
+
+                <div class="flex flex-wrap gap-4">
+
+                    <a href="contact.html"
+                        class="inline-flex items-center gap-3 px-8 py-4 rounded-2xl bg-[#d4a017] text-[#173726] font-semibold hover:bg-[#bf8d12] transition shadow-lg">
+
+                        Contact an Agent
+
+                    </a>
+
+                    <a href="#"
+                        class="inline-flex items-center gap-3 px-8 py-4 rounded-2xl border border-white/20 text-white hover:bg-white hover:text-[#173726] transition">
+
+                        Schedule a Viewing
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =====================================================
+FOOTER
+===================================================== -->
+
+<footer class="relative bg-[#173726] text-white overflow-hidden">
+
+    <!-- Decorative Background -->
+
+    <div class="absolute inset-0 pointer-events-none">
+
+        <div
+            class="absolute -top-24 -left-24 w-72 h-72 rounded-full bg-white/5 blur-3xl">
+        </div>
+
+        <div
+            class="absolute bottom-0 right-0 w-96 h-96 rounded-full bg-[#d4a017]/10 blur-3xl">
+        </div>
+
+    </div>
+
+    <div class="relative max-w-7xl mx-auto px-6 lg:px-8">
+
+        <!-- Top Footer -->
+
+        <div class="py-20 grid md:grid-cols-2 lg:grid-cols-4 gap-14">
+
+            <!-- Company -->
+
+            <div>
+
+                <a href="#"
+                    class="text-3xl font-display font-bold">
+
+                    Lekki<span class="text-[#d4a017]">Homes</span>
+
+                </a>
+
+                <p
+                    class="mt-6 leading-8 text-white/70">
+
+                    Helping families, investors and businesses discover
+                    premium properties across Abuja with honesty,
+                    professionalism and exceptional service.
+
+                </p>
+
+                <!-- Social -->
+
+                <div class="flex gap-4 mt-8">
+
+                    <a href="#"
+                        class="w-11 h-11 rounded-full border border-white/15 hover:bg-[#d4a017] hover:text-[#173726] transition flex items-center justify-center">
+
+                        <i class="fab fa-facebook-f"></i>
+
+                    </a>
+
+                    <a href="#"
+                        class="w-11 h-11 rounded-full border border-white/15 hover:bg-[#d4a017] hover:text-[#173726] transition flex items-center justify-center">
+
+                        <i class="fab fa-instagram"></i>
+
+                    </a>
+
+                    <a href="#"
+                        class="w-11 h-11 rounded-full border border-white/15 hover:bg-[#d4a017] hover:text-[#173726] transition flex items-center justify-center">
+
+                        <i class="fab fa-linkedin-in"></i>
+
+                    </a>
+
+                    <a href="#"
+                        class="w-11 h-11 rounded-full border border-white/15 hover:bg-[#d4a017] hover:text-[#173726] transition flex items-center justify-center">
+
+                        <i class="fab fa-whatsapp"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Quick Links -->
+
+            <div>
+
+                <h3
+                    class="text-xl font-semibold">
+
+                    Quick Links
+
+                </h3>
+
+                <ul class="mt-8 space-y-4 text-white/70">
+
+                    <li><a href="#home" class="hover:text-[#d4a017] transition">Home</a></li>
+
+                    <li><a href="#properties" class="hover:text-[#d4a017] transition">Properties</a></li>
+
+                    <li><a href="#services" class="hover:text-[#d4a017] transition">Services</a></li>
+
+                    <li><a href="#agent" class="hover:text-[#d4a017] transition">Agent</a></li>
+
+                    <li><a href="#contact" class="hover:text-[#d4a017] transition">Contact</a></li>
+
+                </ul>
+
+            </div>
+
+            <!-- Services -->
+
+            <div>
+
+                <h3
+                    class="text-xl font-semibold">
+
+                    Services
+
+                </h3>
+
+                <ul class="mt-8 space-y-4 text-white/70">
+
+                    <li>Property Sales</li>
+
+                    <li>Property Rentals</li>
+
+                    <li>Investment Advisory</li>
+
+                    <li>Property Management</li>
+
+                    <li>Legal Documentation</li>
+
+                </ul>
+
+            </div>
+
+            <!-- Newsletter -->
+
+            <div>
+
+                <h3
+                    class="text-xl font-semibold">
+
+                    Stay Updated
+
+                </h3>
+
+                <p
+                    class="mt-6 text-white/70 leading-8">
+
+                    Subscribe to receive new listings and exclusive
+                    property opportunities.
+
+                </p>
+
+                <form class="mt-8">
+
+                    <div
+                        class="flex rounded-full bg-white overflow-hidden">
+
+                        <input
+                            type="email"
+                            placeholder="Email address"
+                            class="flex-1 px-5 py-4 text-gray-800 outline-none">
+
+                        <button
+                            type="submit"
+                            class="bg-[#d4a017] hover:bg-[#bf8d12] transition px-6 font-semibold text-[#173726]">
+
+                            Join
+
+                        </button>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+
+        <!-- Divider -->
+
+        <div class="border-t border-white/10"></div>
+
+        <!-- Bottom Footer -->
+
+        <div
+            class="py-8 flex flex-col md:flex-row items-center justify-between gap-5">
+
+            <p
+                class="text-white/60 text-sm">
+
+                © 2026 LekkiHomes. All rights reserved.
+
+            </p>
+
+            <div
+                class="flex flex-wrap justify-center gap-8 text-sm text-white/60">
+
+                <a href="#" class="hover:text-[#d4a017] transition">
+                    Privacy Policy
+                </a>
+
+                <a href="#" class="hover:text-[#d4a017] transition">
+                    Terms & Conditions
+                </a>
+
+                <a href="#" class="hover:text-[#d4a017] transition">
+                    Cookie Policy
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+<!-- =====================================================
+REQUIRED FILES
+===================================================== -->
+
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+<style>
+body{
+    font-family:'Inter',sans-serif;
+}
+
+.font-display{
+    font-family:'Cormorant Garamond',serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+</style>
+
+
+
+
+</body> 
+</html>
+
